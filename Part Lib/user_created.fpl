@@ -1,0 +1,12 @@
+name: "solderpad8"
+  units: MIL
+  sel_rect: -30 -30 30 30
+  ref_text: 100 100 200 0 10
+  value_text: 100 100 0 0 10
+  centroid: 0 0 0 0
+  n_pins: 1
+    pin: "1" 25 0 0 0
+      top_pad: 0 0 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 40 0 0 0
+
