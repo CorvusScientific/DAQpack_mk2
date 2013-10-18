@@ -1,14 +1,31 @@
-name: "solderpad9"
+name: "Anaren BD2425NnRF"
+description: "Balun for nRF24L01+"
   units: MIL
-  sel_rect: -30 -30 30 30
-  ref_text: 100 100 200 0 10
-  value_text: 100 100 0 0 10
-  centroid: 0 0 0 0
-  n_pins: 1
-    pin: "1" 25 0 0 0
-      top_pad: 0 0 0 0 0
-      inner_pad: 0 0 0 0 0 0
-      bottom_pad: 1 40 0 0 0
+  sel_rect: -18.5 -18.5 35.5 35.5
+  ref_text: 50 150 50 0 5
+  value_text: 100 140 130 0 10
+  centroid: 0 10 25 0
+  n_pins: 4
+    pin: "1" 0 -1.5 -1.5 90
+      top_pad: 3 14 7 7 0
+    pin: "2" 0 20 0 270
+      top_pad: 3 11 5.5 5.5 0
+    pin: "3" 0 20 20 90
+      top_pad: 3 11 5.5 5.5 0
+    pin: "4" 0 0 20 90
+      top_pad: 3 11 5.5 5.5 0
+
+name: "solderpad9"
+units: MIL
+sel_rect: -30 -30 30 30
+ref_text: 100 100 200 0 10
+value_text: 100 100 0 0 10
+centroid: 0 0 0 0
+n_pins: 1
+pin: "1" 25 0 0 0
+top_pad: 0 0 0 0 0
+inner_pad: 0 0 0 0 0 0
+bottom_pad: 1 40 0 0 0
 
 name: "solderpad8"
 units: MIL
