@@ -1,0 +1,48 @@
+*PADS-PCB*
+*PART*
+H1      package name for PCB layout
+H2      package name for PCB layout
+U2      MR25H40
+P2      package name for PCB layout
+P4      package name for PCB layout
+P6      package name for PCB layout
+P1      package name for PCB layout
+P3      package name for PCB layout
+P5      package name for PCB layout
+P8      package name for PCB layout
+P7      package name for PCB layout
+P9      package name for PCB layout
+C1      This part has no 'Package' attribute
+
+*NET*
+*SIGNAL*  GND
+H1.12 H2.7 U2.4 P2.1 C1.2
+*SIGNAL*  ADC0
+H1.1 H2.6 P3.1
+*SIGNAL*  ADC1
+H1.2 H2.5 P4.1
+*SIGNAL*  ADC2
+H1.3 H2.4 P5.1
+*SIGNAL*  ADC3
+H1.4 H2.3 P6.1
+*SIGNAL*  SDA
+H1.5 H2.2
+*SIGNAL*  SCL
+H1.6 H2.1
+*SIGNAL*  INT
+H1.7 H2.12
+*SIGNAL*  SCK
+H1.8 H2.11 U2.7
+*SIGNAL*  MISO
+H1.9 H2.10 U2.8
+*SIGNAL*  MOSI
+H1.10 H2.9 U2.2
+*SIGNAL*  Mem_CS
+U2.1 P8.1
+*SIGNAL*  mem_WP
+U2.3 P7.1
+*SIGNAL*  VDD
+U2.5 H1.11 H2.8 C1.1 P1.1
+*SIGNAL*  mem_HOLD
+U2.6 P9.1
+*END*
