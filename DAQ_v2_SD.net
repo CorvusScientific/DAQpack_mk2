@@ -1,0 +1,61 @@
+*PADS-PCB*
+*PART*
+U3      6-WFDFN
+C14     This part has no 'Package' attribute
+C15     This part has no 'Package' attribute
+P1      package name for PCB layout
+P2      package name for PCB layout
+H2      
+U1      32-MLF (VFQFN)
+C16     This part has no 'Package' attribute
+R1      1M@
+H1      package name for PCB layout
+D1      
+R2      This part has no 'Package' attribute
+S1      This part has no 'Package' attribute
+H3      Molex 1050270001
+
+*NET*
+*SIGNAL*  GND
+U3.2 C14.1 H3.7 H2.2 U1.5 U1.3 C15.1 P2.1 U1.21 H1.12 H2.4 R2.1 C16.2
+*SIGNAL*  Bat_+
+U3.1 C14.2 U3.6 S1.2
+*SIGNAL*  VDD
+U1.18 R1.2 H3.4 H2.3 U1.6 U1.4 C15.2 U3.3 H1.11
+*SIGNAL*  RST
+H2.1 R1.1 U1.29
+*SIGNAL*  MISO
+H2.7 U1.16 H1.9 H3.8
+*SIGNAL*  SCK
+H2.8 U1.17 H1.8 H3.6
+*SIGNAL*  ADC0
+U1.23 H1.1
+*SIGNAL*  ADC1
+U1.24 H1.2
+*SIGNAL*  ADC2
+U1.25 H1.3
+*SIGNAL*  ADC3
+U1.26 H1.4
+*SIGNAL*  INT
+U1.32 H1.7
+*SIGNAL*  Mem_CS
+U1.12 H3.2
+*SIGNAL*  mem_SWITCH
+U1.13 H3.5
+*SIGNAL*  SDA
+H1.5 U1.27
+*SIGNAL*  SCL
+H1.6 U1.28
+*SIGNAL*  MOSI
+H2.6 U1.15 H1.10 H3.3
+*SIGNAL*  Chg
+S1.3 H2.5
+*SIGNAL*  N000000
+C16.1 U1.20
+*SIGNAL*  N000001
+D1.1 U1.11
+*SIGNAL*  N000002
+D1.2 R2.2
+*SIGNAL*  N000003
+S1.1 P1.1
+*END*

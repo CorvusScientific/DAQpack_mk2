@@ -1,19 +1,77 @@
-name: "1206"
-  units: NM
-  sel_rect: -1123100 -1473100 4023100 1473100
-  ref_text: 1270000 4064000 1016000 0 127000
-  value_text: 2540000 2794000 2794000 0 254000
-  centroid: 0 1450000 0 0
-  outline_polyline: 177800 -780200 -1130200
-    next_corner: 3680200 -1130200 0
-    next_corner: 3680200 1130200 0
-    next_corner: -780200 1130200 0
+name: "module placeholder"
+  units: MIL
+  sel_rect: -10.5 -10.5 360.5 530.5
+  ref_text: 100 750 380 0 10
+  value_text: 100 730 230 0 10
+  centroid: 0 0 0 0
+  outline_polyline: 1 0 0
+    next_corner: 0 520 0
+    next_corner: 350 520 0
+    next_corner: 350 0 0
     close_polyline: 0
-  n_pins: 2
-    pin: "1" 0 0 0 270
-      top_pad: 3 900000 800000 800000 0
-    pin: "2" 0 2900000 0 270
-      top_pad: 3 900000 800000 800000 0
+  n_pins: 0
+
+name: "uSD card slot"
+description: "molex 1050270001"
+units: NM
+sel_rect: -6004000 -8632000 6854000 7491000
+ref_text: 2540000 7620000 7620000 0 254000
+value_text: 2540000 7620000 5080000 0 254000
+centroid: 0 0 0 0
+outline_polyline: 250000 -5588000 0
+next_corner: -5588000 7112000 0
+next_corner: 5588000 7112000 0
+next_corner: 5588000 0 0
+close_polyline: 0
+outline_polyline: 500000 -4826000 0
+next_corner: -4826000 -8128000 0
+next_corner: 6350000 -8128000 0
+next_corner: 6350000 0 0
+close_polyline: 0
+n_pins: 13
+pin: "1" 0 3850000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "2" 0 2750000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "3" 0 1650000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "4" 0 900000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "5" 0 200000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "6" 0 -550000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "7" 0 -1650000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "8" 0 -2750000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "9" 0 -3850000 500000 0
+top_pad: 3 1000000 250000 250000 0
+pin: "10" 0 -5225000 6560000 0
+top_pad: 3 1200000 525000 525000 0
+pin: "11" 0 5225000 6560000 0
+top_pad: 3 1200000 525000 525000 0
+pin: "12" 0 -5225000 2110000 0
+top_pad: 3 1200000 525000 525000 0
+pin: "13" 0 5225000 2110000 0
+top_pad: 3 1200000 525000 525000 0
+
+name: "1206"
+units: NM
+sel_rect: -1123100 -1473100 4023100 1473100
+ref_text: 1270000 4064000 1016000 0 127000
+value_text: 2540000 2794000 2794000 0 254000
+centroid: 0 1450000 0 0
+outline_polyline: 177800 -780200 -1130200
+next_corner: 3680200 -1130200 0
+next_corner: 3680200 1130200 0
+next_corner: -780200 1130200 0
+close_polyline: 0
+n_pins: 2
+pin: "1" 0 0 0 270
+top_pad: 3 900000 800000 800000 0
+pin: "2" 0 2900000 0 270
+top_pad: 3 900000 800000 800000 0
 
 name: "via_40p_25h"
 units: MIL
