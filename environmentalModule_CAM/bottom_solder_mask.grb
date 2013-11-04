@@ -1,0 +1,121 @@
+G04 FreePCB version 1.359*
+G04 C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\environmentalModule_CAM\bottom_solder_mask.grb*
+G04 bottom solder mask layer *
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+%FSLAX24Y24*%
+%MOIN*%
+%LN bottom solder mask *%
+G04 Rounded Rectangle Macro, params: W/2, H/2, R *
+%AMRNDREC*
+21,1,$1+$1,$2+$2-$3-$3,0,0,0*
+21,1,$1+$1-$3-$3,$2+$2,0,0,0*
+1,1,$3+$3,$1-$3,$2-$3*
+1,1,$3+$3,$3-$1,$2-$3*
+1,1,$3+$3,$1-$3,$3-$2*
+1,1,$3+$3,$3-$1,$3-$2*%
+G04 Rectangular Thermal Macro, params: W/2, H/2, T/2 *
+%AMRECTHERM*
+$4=$3/2*
+21,1,$1-$3,$2-$3,0-$1/2-$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,0-$1/2-$4,$2/2+$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,$2/2+$4,0*%
+%ADD10C,0.005000*%
+%ADD11R,0.024661X0.051433*%
+%ADD12R,0.035685X0.049465*%
+%ADD13R,0.027811X0.027811*%
+G90*
+G70D02*
+
+G04 Step and Repeat for panelization *
+
+G04 ----------------------- Draw board outline (positive)*
+%LPD*%
+G54D10*
+G01X0Y0D02*
+G01X0Y5150D01*
+G04 end of side 1*
+G01X3430Y5150D01*
+G04 end of side 2*
+G01X3430Y0D01*
+G04 end of side 3*
+G01X0Y0D01*
+
+G04 -------------- Draw Parts, Pads, Traces, Vias and Text (positive)*
+%LPD*%
+G04 Draw part H2*
+G54D11*
+G01X2090Y3690D03*
+G01X1932Y3690D03*
+G01X1775Y3690D03*
+G01X1617Y3690D03*
+G01X1460Y3690D03*
+G01X1302Y3690D03*
+G01X1302Y4725D03*
+G01X1460Y4725D03*
+G01X1617Y4725D03*
+G01X1775Y4725D03*
+G01X1932Y4725D03*
+G01X2090Y4725D03*
+G54D12*
+G01X2404Y3916D03*
+G01X2404Y4499D03*
+G01X987Y4499D03*
+G01X987Y3916D03*
+G04 Draw part U1*
+G04 Draw part U2*
+G04 Draw part R1*
+G54D13*
+G01X3000Y2400D03*
+G01X3000Y2606D03*
+G04 Draw part R2*
+G01X3000Y2100D03*
+G01X3000Y1893D03*
+G04 Draw part C4*
+G01X2150Y1900D03*
+G01X1943Y1900D03*
+G04 Draw part C3*
+G01X2150Y1600D03*
+G01X1943Y1600D03*
+G04 Draw part C1*
+G01X1660Y800D03*
+G01X1660Y593D03*
+G04 Draw part C2*
+G01X2350Y600D03*
+G01X2350Y806D03*
+G04 Draw part C5*
+G01X900Y3200D03*
+G01X693Y3200D03*
+G04 Draw part C6*
+G01X1700Y2630D03*
+G01X1493Y2630D03*
+G04 Draw part J1*
+G04 Draw part J2*
+G04 Draw part J4*
+G04 Draw part J5*
+G04 Draw part J6*
+G04 Draw part J3*
+G04 Draw part T1*
+G04 Draw part R3*
+G01X1450Y3200D03*
+G01X1243Y3200D03*
+G04 Draw part U3*
+G04 Draw part J7*
+G04 Draw part J8*
+G04 Draw part R4*
+G01X170Y1700D03*
+G01X376Y1700D03*
+G04 Draw part C7*
+G01X700Y2600D03*
+G01X700Y2806D03*
+G04 Draw part P9*
+G01X2800Y1600D03*
+G01X3006Y1600D03*
+
+G04 Draw traces*
+
+G04 Draw Text*
+
+G04 Draw solder mask cutouts*
+M00*
+M02*

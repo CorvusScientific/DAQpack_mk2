@@ -1,15 +1,76 @@
-name: "module placeholder"
-  units: MIL
-  sel_rect: -10.5 -10.5 360.5 530.5
-  ref_text: 100 750 380 0 10
-  value_text: 100 730 230 0 10
-  centroid: 0 0 0 0
-  outline_polyline: 1 0 0
-    next_corner: 0 520 0
-    next_corner: 350 520 0
-    next_corner: 350 0 0
+name: "SFH-4053"
+description: "for SFH-4053 IR emitter"
+  units: NM
+  sel_rect: -973100 -973100 2073100 973100
+  ref_text: 1270000 275000 0 0 127000
+  value_text: 2540000 2540000 0 0 254000
+  centroid: 0 550000 0 0
+  outline_polyline: 177800 -630200 -630200
+    next_corner: 1730200 -630200 0
+    next_corner: 1730200 630200 0
+    next_corner: -630200 630200 0
     close_polyline: 0
-  n_pins: 0
+  n_pins: 2
+    pin: "1" 0 0 0 270
+      top_pad: 3 600000 300000 300000 0
+    pin: "2" 0 1100000 0 270
+      top_pad: 3 600000 300000 300000 0
+
+name: "10M1 VFDN"
+description: "for attiny13a 10M1 VFDN"
+units: NM
+sel_rect: -369000 -529000 2369000 3379000
+ref_text: 1270000 2540000 2540000 0 127000
+value_text: 2540000 2540000 5080000 0 254000
+centroid: 0 1000000 1425000 0
+n_pins: 11
+pin: "1" 0 0 0 270
+top_pad: 3 230000 275000 275000 0
+pin: "2" 0 500000 0 270
+top_pad: 3 230000 275000 275000 0
+pin: "3" 0 1000000 0 270
+top_pad: 3 230000 275000 275000 0
+pin: "4" 0 1500000 0 270
+top_pad: 3 230000 275000 275000 0
+pin: "5" 0 2000000 0 270
+top_pad: 3 230000 275000 275000 0
+pin: "6" 0 2000000 2850000 90
+top_pad: 3 230000 275000 275000 0
+pin: "7" 0 1500000 2850000 90
+top_pad: 3 230000 275000 275000 0
+pin: "8" 0 1000000 2850000 90
+top_pad: 3 230000 275000 275000 0
+pin: "9" 0 500000 2850000 90
+top_pad: 3 230000 275000 275000 0
+pin: "10" 0 0 2850000 90
+top_pad: 3 230000 275000 275000 0
+pin: "11" 0 1000000 1425000 90
+top_pad: 3 2000000 800000 800000 0
+
+name: "DSK-414 supercap"
+units: MIL
+sel_rect: -78.897638 -250.102362 78.897638 69
+ref_text: 100 300 200 0 10
+value_text: 100 300 0 0 10
+centroid: 0 0 0 0
+n_pins: 2
+pin: "1" 0 0 29.5 0
+top_pad: 3 59 49 49 0
+pin: "2" 0 0 -210.602362 0
+top_pad: 3 59 68.897638 68.897638 0
+
+name: "module placeholder"
+units: MIL
+sel_rect: -10.5 -10.5 360.5 530.5
+ref_text: 100 750 380 0 10
+value_text: 100 730 230 0 10
+centroid: 0 0 0 0
+outline_polyline: 1 0 0
+next_corner: 0 520 0
+next_corner: 350 520 0
+next_corner: 350 0 0
+close_polyline: 0
+n_pins: 0
 
 name: "uSD card slot"
 description: "molex 1050270001"

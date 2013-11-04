@@ -1,0 +1,100 @@
+G04 FreePCB version 1.359*
+G04 C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\memoryModule_CAM\top_paste_mask.grb*
+G04 top paste mask layer *
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+%FSLAX24Y24*%
+%MOIN*%
+%LN top paste mask *%
+G04 Rounded Rectangle Macro, params: W/2, H/2, R *
+%AMRNDREC*
+21,1,$1+$1,$2+$2-$3-$3,0,0,0*
+21,1,$1+$1-$3-$3,$2+$2,0,0,0*
+1,1,$3+$3,$1-$3,$2-$3*
+1,1,$3+$3,$3-$1,$2-$3*
+1,1,$3+$3,$1-$3,$3-$2*
+1,1,$3+$3,$3-$1,$3-$2*%
+G04 Rectangular Thermal Macro, params: W/2, H/2, T/2 *
+%AMRECTHERM*
+$4=$3/2*
+21,1,$1-$3,$2-$3,0-$1/2-$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,0-$1/2-$4,$2/2+$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,$2/2+$4,0*%
+%ADD10C,0.005000*%
+%ADD11R,0.035433X0.019685*%
+%ADD12R,0.086614X0.086614*%
+%ADD13R,0.008661X0.027559*%
+%ADD14R,0.039370X0.019685*%
+%ADD15R,0.011811X0.011811*%
+G90*
+G70D02*
+
+G04 Step and Repeat for panelization *
+
+G04 ----------------------- Draw board outline (positive)*
+%LPD*%
+G54D10*
+G01X0Y0D02*
+G01X0Y5200D01*
+G04 end of side 1*
+G01X3430Y5200D01*
+G04 end of side 2*
+G01X3430Y0D01*
+G04 end of side 3*
+G01X0Y0D01*
+
+G04 -------------- Draw Parts, Pads, Traces, Vias and Text (positive)*
+%LPD*%
+G04 Draw part U2*
+G54D11*
+G01X700Y1800D03*
+G01X700Y1300D03*
+G01X700Y800D03*
+G01X700Y300D03*
+G01X2865Y300D03*
+G01X2865Y800D03*
+G01X2865Y1300D03*
+G01X2865Y1800D03*
+G54D12*
+G01X1782Y1050D03*
+G04 Draw part H1*
+G54D13*
+G01X1300Y3600D03*
+G01X1457Y3600D03*
+G01X1614Y3600D03*
+G01X1772Y3600D03*
+G01X1929Y3600D03*
+G01X2087Y3600D03*
+G01X2087Y4820D03*
+G01X1929Y4820D03*
+G01X1772Y4820D03*
+G01X1614Y4820D03*
+G01X1457Y4820D03*
+G01X1300Y4820D03*
+G54D14*
+G01X925Y3619D03*
+G01X925Y4800D03*
+G01X2461Y4800D03*
+G01X2461Y3619D03*
+G04 Draw part H2*
+G04 Draw part P2*
+G04 Draw part P4*
+G04 Draw part P6*
+G04 Draw part P1*
+G04 Draw part P3*
+G04 Draw part P5*
+G04 Draw part P8*
+G04 Draw part P7*
+G04 Draw part P9*
+G04 Draw part C1*
+G54D15*
+G01X400Y4000D03*
+G01X400Y3793D03*
+G04 Draw part P10*
+G04 Draw part P11*
+
+G04 Draw traces*
+
+G04 Draw Text*
+M00*
+M02*

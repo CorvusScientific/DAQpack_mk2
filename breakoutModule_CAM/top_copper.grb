@@ -1,0 +1,75 @@
+G04 FreePCB version 1.359*
+G04 C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\breakoutModule_CAM\top_copper.grb*
+G04 top copper layer *
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+%FSLAX24Y24*%
+%MOIN*%
+%LN top copper *%
+G04 Rounded Rectangle Macro, params: W/2, H/2, R *
+%AMRNDREC*
+21,1,$1+$1,$2+$2-$3-$3,0,0,0*
+21,1,$1+$1-$3-$3,$2+$2,0,0,0*
+1,1,$3+$3,$1-$3,$2-$3*
+1,1,$3+$3,$3-$1,$2-$3*
+1,1,$3+$3,$1-$3,$3-$2*
+1,1,$3+$3,$3-$1,$3-$2*%
+G04 Rectangular Thermal Macro, params: W/2, H/2, T/2 *
+%AMRECTHERM*
+$4=$3/2*
+21,1,$1-$3,$2-$3,0-$1/2-$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,0-$1/2-$4,$2/2+$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,$2/2+$4,0*%
+%ADD10C,0.005000*%
+%ADD11C,0.034000*%
+G90*
+G70D02*
+
+G04 Step and Repeat for panelization *
+
+G04 ----------------------- Draw board outline (positive)*
+%LPD*%
+G54D10*
+G01X-1600Y1500D02*
+G01X1500Y1500D01*
+G04 end of side 1*
+G01X1500Y-1500D01*
+G04 end of side 2*
+G01X-1600Y-1500D01*
+G04 end of side 3*
+G01X-1600Y1500D01*
+
+G04 -------------- Draw Parts, Pads, Traces, Vias and Text (positive)*
+%LPD*%
+G04 Draw part P1*
+G04 Draw part P3*
+G54D11*
+G01X-1300Y-1200D03*
+G04 Draw part P4*
+G01X-800Y1200D03*
+G04 Draw part P5*
+G01X-1300Y1200D03*
+G04 Draw part P6*
+G01X-300Y1200D03*
+G04 Draw part P7*
+G01X700Y1200D03*
+G04 Draw part P8*
+G01X1200Y1200D03*
+G04 Draw part P9*
+G01X-800Y-1200D03*
+G04 Draw part P10*
+G01X200Y1200D03*
+G04 Draw part P11*
+G01X1200Y-1200D03*
+G04 Draw part P12*
+G01X700Y-1200D03*
+G04 Draw part P13*
+G01X-300Y-1200D03*
+G04 Draw part P14*
+G01X200Y-1200D03*
+
+G04 Draw traces*
+
+G04 Draw Text*
+M00*
+M02*
