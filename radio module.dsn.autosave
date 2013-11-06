@@ -19,6 +19,16 @@ download a copy.-->
 			<DATE></DATE>
 			<GRID spacing='100.00000' snap='1'/>
 		</DETAILS>
+		<FONT id='0'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
 		<FONT id='1'>
 			<HEIGHT>-10</HEIGHT>
 			<WIDTH>0</WIDTH>
@@ -830,5 +840,6 @@ download a copy.-->
 		<WIRE a='54.00000,70.00000' b='54.00000,68.00000'/>
 		<WIRE a='58.00000,70.00000' b='58.00000,68.00000'/>
 		<WIRE a='62.00000,70.00000' b='62.00000,68.00000'/>
+		<TEXT pos='204.00000,74.00000' direction='3' font='0' color='000000'>replaced this with a balun</TEXT>
 	</TinyCAD>
 </TinyCADSheets>
