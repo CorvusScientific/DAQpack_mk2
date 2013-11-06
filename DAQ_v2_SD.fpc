@@ -3,7 +3,7 @@
 version: 1.359
 file_version: 1.344
 project_name: "DAQ_v2_SD"
-full_library_folder: "c:\users\jack ruby\documents\github\daqpack_mk2\part lib"
+full_library_folder: "c:\users\dwight springthorpe\documents\github\daqpack_mk2\part lib"
 CAM_folder: "C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\DAQ_v2_SD_CAM"
 ses_file_path: ""
 netlist_file_path: "C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\DAQ_v2_SD.net"
@@ -69,10 +69,10 @@ routing_grid_spacing: 25400.000000
   routing_grid_item: 3.33330709MIL
   routing_grid_item: 4MIL
   routing_grid_item: 5MIL
-  routing_grid_item: 6.6665748MIL
+  routing_grid_item: 6.66649606MIL
   routing_grid_item: 10MIL
   routing_grid_item: 12.5MIL
-  routing_grid_item: 16.6665748MIL
+  routing_grid_item: 16.66649606MIL
   routing_grid_item: 20MIL
   routing_grid_item: 25MIL
   routing_grid_item: 40MIL
@@ -248,6 +248,18 @@ description: "molex 1050270001"
       top_pad: 3 1200000 525000 525000 0
     pin: "13" 0 5225000 2110000 0
       top_pad: 3 1200000 525000 525000 0
+
+name: "solderpad7"
+  units: MIL
+  sel_rect: -22.5 -22.5 22.5 22.5
+  ref_text: 100 100 200 0 10
+  value_text: 100 100 0 0 10
+  centroid: 1 0 0 0
+  n_pins: 1
+    pin: "1" 25 0 0 0
+      top_pad: 0 1 0 0 0
+      inner_pad: 0 34 0 0 0 0
+      bottom_pad: 0 1 0 0 0
 
 name: "0201"
 description: "for 0201 passives"
@@ -601,6 +613,18 @@ part: C17
   shape: "0201"
   pos: 2794000 9906000 0 90 0
 
+part: hole1
+  ref_text: 2540000 254000 0 2540000 5080000 1
+  package: ""
+  shape: "solderpad7"
+  pos: 11938000 18288000 0 0 0
+
+part: hole2
+  ref_text: 2540000 254000 0 2540000 5080000 1
+  package: ""
+  shape: "solderpad7"
+  pos: 762000 18288000 0 0 0
+
 [nets]
 
 net: "ADC0" 2 1 0 0 0 0 1
@@ -681,7 +705,7 @@ net: "VDD" 10 9 0 203200 0 0 1
   connect: 4 4 -1 4 0
     vtx: 1 4176000 8366000 12 0 0 0 0
     seg: 1 12 203200 0 0
-    vtx: 2 4419600 8356600 0 0 0 0 0
+    vtx: 2 4191000 8356600 0 0 0 0 0
     seg: 2 12 203200 0 0
     vtx: 3 3556000 8356600 0 0 0 0 0
     seg: 3 12 203200 0 0

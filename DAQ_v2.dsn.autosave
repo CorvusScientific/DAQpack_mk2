@@ -19,6 +19,16 @@ download a copy.-->
 			<DATE></DATE>
 			<GRID spacing='100.00000' snap='1'/>
 		</DETAILS>
+		<FONT id='0'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
 		<FONT id='1'>
 			<HEIGHT>-10</HEIGHT>
 			<WIDTH>0</WIDTH>
@@ -1138,5 +1148,8 @@ download a copy.-->
 		<WIRE a='244.00000,38.00000' b='244.00000,24.00000'/>
 		<WIRE a='246.00000,24.00000' b='246.00000,26.00000'/>
 		<WIRE a='248.00000,24.00000' b='248.00000,38.00000'/>
+		<TEXT pos='138.00000,46.00000' direction='3' font='0' color='000000'>this is now a rotary switch</TEXT>
+		<TEXT pos='184.00000,90.00000' direction='3' font='0' color='000000'>corrected in PCB- need to fix here as well</TEXT>
+		<TEXT pos='108.00000,68.00000' direction='3' font='0' color='000000'>added 2x decoupling caps around board</TEXT>
 	</TinyCAD>
 </TinyCADSheets>

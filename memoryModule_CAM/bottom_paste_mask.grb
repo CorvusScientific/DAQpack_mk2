@@ -1,5 +1,5 @@
 G04 FreePCB version 1.359*
-G04 C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\memoryModule_CAM\bottom_paste_mask.grb*
+G04 C:\Users\Dwight Springthorpe\Documents\GitHub\DAQpack_mk2\memoryModule_CAM\bottom_paste_mask.grb*
 G04 bottom paste mask layer *
 G04 Scale: 100 percent, Rotated: No, Reflected: No *
 %FSLAX24Y24*%
@@ -34,9 +34,9 @@ G54D10*
 G01X0Y0D02*
 G01X0Y5200D01*
 G04 end of side 1*
-G01X3430Y5200D01*
+G01X3500Y5200D01*
 G04 end of side 2*
-G01X3430Y0D01*
+G01X3500Y0D01*
 G04 end of side 3*
 G01X0Y0D01*
 
