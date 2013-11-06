@@ -3,7 +3,7 @@
 version: 1.359
 file_version: 1.344
 project_name: "batteryPad"
-full_library_folder: "C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\Part Lib"
+full_library_folder: "c:\users\jack ruby\documents\github\daqpack_mk2\part lib"
 CAM_folder: ""
 ses_file_path: ""
 netlist_file_path: ""
@@ -62,7 +62,7 @@ placement_grid_spacing: 254000.000000
   placement_grid_item: 5MM
   placement_grid_item: 10MM
 
-routing_grid_spacing: 508000.000000
+routing_grid_spacing: 25400.000000
   routing_grid_item: 1MIL
   routing_grid_item: 2MIL
   routing_grid_item: 2.5MIL
@@ -174,9 +174,9 @@ drc_board_edge_hole: 635000
 drc_hole_hole: 635000
 drc_copper_copper: 254000
 
-default_trace_width: 101600
-default_via_pad_width: 406400
-default_via_hole_width: 203200
+default_trace_width: 254000
+default_via_pad_width: 711200
+default_via_hole_width: 355600
 n_width_menu: 7
   width_menu_item: 1 152400 711200 355600
   width_menu_item: 2 203200 711200 355600
@@ -194,7 +194,7 @@ n_copper_layers: 2
   layer_info: "DRC error" 4 255 128 64 1
   layer_info: "board outline" 5 0 0 255 1
   layer_info: "rat line" 6 255 0 255 1
-  layer_info: "top silk" 7 255 255 0 1
+  layer_info: "top silk" 7 255 255 0 0
   layer_info: "bottom silk" 8 255 192 192 1
   layer_info: "top sm cutout" 9 160 160 160 1
   layer_info: "bot sm cutout" 10 95 95 95 1
@@ -203,30 +203,6 @@ n_copper_layers: 2
   layer_info: "bottom copper" 13 255 0 0 1
 
 [footprints]
-
-name: "solderpad7"
-  units: MIL
-  sel_rect: -22.5 -22.5 22.5 22.5
-  ref_text: 100 100 200 0 10
-  value_text: 100 100 0 0 10
-  centroid: 1 0 0 0
-  n_pins: 1
-    pin: "1" 25 0 0 0
-      top_pad: 0 1 0 0 0
-      inner_pad: 0 34 0 0 0 0
-      bottom_pad: 0 1 0 0 0
-
-name: "solderpad8"
-  units: MIL
-  sel_rect: -30 -30 30 30
-  ref_text: 100 100 200 0 10
-  value_text: 100 100 0 0 10
-  centroid: 0 0 0 0
-  n_pins: 1
-    pin: "1" 25 0 0 0
-      top_pad: 0 0 0 0 0
-      inner_pad: 0 0 0 0 0 0
-      bottom_pad: 1 40 0 0 0
 
 name: "lipo battery_sm"
   units: MIL
@@ -240,92 +216,96 @@ name: "lipo battery_sm"
     pin: "2" 0 200 0 0
       top_pad: 3 65 45 45 0
 
+name: "via_40p_25h"
+  units: MIL
+  sel_rect: -30 -30 30 30
+  ref_text: 100 100 200 0 10
+  value_text: 100 100 0 0 10
+  centroid: 1 0 0 0
+  n_pins: 1
+    pin: "1" 25 0 0 0
+      top_pad: 1 40 0 0 0
+      inner_pad: 0 34 0 0 0 0
+      bottom_pad: 1 40 0 0 0
+
 [board]
 
 outline: 4 0
-  corner: 1 101600 -254000 0
-  corner: 2 8890000 -254000 0
-  corner: 3 8890000 4191000 0
-  corner: 4 101600 4191000 0
+  corner: 1 0 0 0
+  corner: 2 0 3302000 0
+  corner: 3 9398000 3302000 0
+  corner: 4 9398000 0 0
 
 [solder_mask_cutouts]
 
 
 [parts]
 
-part: B1
-  ref_text: 2540000 254000 0 12700000 10160000 0
+part: p2
+  ref_text: 2540000 254000 0 2540000 5080000 1
+  package: ""
+  shape: "via_40p_25h"
+  pos: 1016000 1016000 0 0 0
+
+part: p3
+  ref_text: 2540000 254000 0 2540000 5080000 1
+  package: ""
+  shape: "via_40p_25h"
+  pos: 1016000 2286000 0 0 0
+
+part: p4
+  ref_text: 2540000 254000 0 2540000 5080000 1
+  package: ""
+  shape: "via_40p_25h"
+  pos: 8382000 1016000 0 0 0
+
+part: p5
+  ref_text: 2540000 254000 0 2540000 5080000 1
+  package: ""
+  shape: "via_40p_25h"
+  pos: 8382000 2286000 0 0 0
+
+part: p6
+  ref_text: 2540000 254000 0 12700000 10160000 1
   package: ""
   shape: "lipo battery_sm"
-  pos: 1905000 2794000 1 180 0
-
-part: H1
-  ref_text: 2540000 254000 0 2540000 5080000 0
-  package: ""
-  shape: "solderpad8"
-  pos: 1905000 508000 0 0 0
-
-part: H2
-  ref_text: 2540000 254000 0 2540000 5080000 0
-  package: ""
-  shape: "solderpad8"
-  pos: 3175000 508000 0 0 0
-
-part: H3
-  ref_text: 2540000 254000 0 2540000 5080000 0
-  package: ""
-  shape: "solderpad8"
-  pos: 5715000 508000 0 0 0
-
-part: H4
-  ref_text: 2540000 254000 0 2540000 5080000 0
-  package: ""
-  shape: "solderpad8"
-  pos: 6985000 508000 0 0 0
-
-part: hole1
-  ref_text: 2540000 254000 0 2540000 5080000 0
-  package: ""
-  shape: "solderpad7"
-  pos: 685800 381000 0 0 0
-
-part: hole2
-  ref_text: 2540000 254000 0 2540000 5080000 0
-  package: ""
-  shape: "solderpad7"
-  pos: 8305800 381000 0 0 0
+  pos: 2032000 1651000 0 0 0
 
 [nets]
 
-net: "N00001" 3 2 0 254000 0 0 1
-  pin: 1 B1.1
-  pin: 2 H1.1
-  pin: 3 H2.1
-  connect: 1 2 1 1 0
-    vtx: 1 3175000 508000 11 0 0 0 0
-    seg: 1 13 254000 0 0
-    vtx: 2 1905000 508000 11 0 0 0 0
-  connect: 2 1 0 3 0
-    vtx: 1 1905000 508000 11 0 0 0 0
-    seg: 1 13 254000 0 0
-    vtx: 2 1905000 2413000 0 0 0 0 0
-    seg: 2 13 254000 0 0
-    vtx: 3 2032000 2540000 0 0 0 0 0
-    seg: 3 13 254000 0 0
-    vtx: 4 1905000 2794000 13 0 0 0 0
+net: "N00001" 3 2 0 0 0 0 1
+  pin: 1 p4.1
+  pin: 2 p5.1
+  pin: 3 p6.2
+  connect: 1 2 0 2 0
+    vtx: 1 7112000 1651000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 7874000 1524000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8382000 1016000 11 0 0 0 0
+  connect: 2 1 2 1 0
+    vtx: 1 8382000 2286000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 7112000 1651000 12 0 0 0 0
 
-net: "N00002" 3 2 0 254000 0 0 1
-  pin: 1 B1.2
-  pin: 2 H4.1
-  pin: 3 H3.1
-  connect: 1 2 1 1 0
-    vtx: 1 5715000 508000 11 0 0 0 0
-    seg: 1 13 254000 0 0
-    vtx: 2 6985000 508000 11 0 0 0 0
-  connect: 2 1 0 1 0
-    vtx: 1 6985000 508000 11 0 0 0 0
-    seg: 1 13 254000 0 0
-    vtx: 2 6985000 2794000 13 0 0 0 0
+net: "N00002" 3 3 0 0 0 0 1
+  pin: 1 p2.1
+  pin: 2 p3.1
+  pin: 3 p6.1
+  connect: 1 1 0 2 0
+    vtx: 1 1016000 2286000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 1016000 1346200 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 1016000 1016000 11 0 0 0 0
+  connect: 2 1 2 1 0
+    vtx: 1 1016000 2286000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 2032000 1651000 12 0 0 0 0
+  connect: 3 0 2 1 0
+    vtx: 1 1016000 1016000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 2032000 1651000 12 0 0 0 0
 
 [texts]
 
