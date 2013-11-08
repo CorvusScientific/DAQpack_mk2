@@ -1,0 +1,184 @@
+G04 FreePCB version 1.359*
+G04 C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\baseCAM\top_paste_mask.grb*
+G04 top paste mask layer *
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+%FSLAX24Y24*%
+%MOIN*%
+%LN top paste mask *%
+G04 Rounded Rectangle Macro, params: W/2, H/2, R *
+%AMRNDREC*
+21,1,$1+$1,$2+$2-$3-$3,0,0,0*
+21,1,$1+$1-$3-$3,$2+$2,0,0,0*
+1,1,$3+$3,$1-$3,$2-$3*
+1,1,$3+$3,$3-$1,$2-$3*
+1,1,$3+$3,$1-$3,$3-$2*
+1,1,$3+$3,$3-$1,$3-$2*%
+G04 Rectangular Thermal Macro, params: W/2, H/2, T/2 *
+%AMRECTHERM*
+$4=$3/2*
+21,1,$1-$3,$2-$3,0-$1/2-$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,0-$1/2-$4,$2/2+$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,$2/2+$4,0*%
+%ADD10C,0.005000*%
+%ADD11R,0.068898X0.059055*%
+%ADD12R,0.019685X0.023622*%
+%ADD13R,0.023622X0.019685*%
+%ADD14R,0.060000X0.160000*%
+G90*
+G70D02*
+
+G04 Step and Repeat for panelization *
+
+G04 ----------------------- Draw board outline (positive)*
+%LPD*%
+G54D10*
+G01X0Y0D02*
+G01X10200Y0D01*
+G04 end of side 1*
+G01X10200Y22700D01*
+G04 end of side 2*
+G01X0Y22700D01*
+G04 end of side 3*
+G01X0Y0D01*
+G01X0Y23700D02*
+G01X0Y31400D01*
+G04 end of side 1*
+G01X10300Y31400D01*
+G04 end of side 2*
+G01X10300Y23700D01*
+G04 end of side 3*
+G01X0Y23700D01*
+
+G04 -------------- Draw Parts, Pads, Traces, Vias and Text (positive)*
+%LPD*%
+G04 Draw part A_U1*
+G04 Draw part A_U5*
+G04 Draw part A_U6*
+G04 Draw part A_C3*
+G04 Draw part A_R4*
+G04 Draw part A_C4*
+G04 Draw part A_X1*
+G04 Draw part A_C1*
+G04 Draw part A_C2*
+G04 Draw part A_D3*
+G54D11*
+G01X2850Y11100D03*
+G01X1373Y11100D03*
+G04 Draw part A_R3*
+G54D12*
+G01X1200Y11700D03*
+G01X1495Y11700D03*
+G04 Draw part A_D2*
+G54D11*
+G01X2850Y13100D03*
+G01X1373Y13100D03*
+G04 Draw part A_R2*
+G54D12*
+G01X1200Y13700D03*
+G01X1495Y13700D03*
+G04 Draw part A_D1*
+G54D11*
+G01X2850Y15100D03*
+G01X1373Y15100D03*
+G04 Draw part A_R1*
+G54D12*
+G01X1200Y15700D03*
+G01X1495Y15700D03*
+G04 Draw part A_H2*
+G04 Draw part A_R5*
+G01X1700Y9700D03*
+G01X1404Y9700D03*
+G04 Draw part A_D4*
+G54D11*
+G01X1350Y9100D03*
+G01X2826Y9100D03*
+G04 Draw part A_D5*
+G01X1350Y7100D03*
+G01X2826Y7100D03*
+G04 Draw part A_R6*
+G54D12*
+G01X1700Y7800D03*
+G01X1404Y7800D03*
+G04 Draw part A_C7*
+G04 Draw part A_C6*
+G04 Draw part A_C5*
+G04 Draw part A_F1*
+G04 Draw part A_C11*
+G04 Draw part A_R9*
+G04 Draw part A_D7*
+G54D11*
+G01X2850Y5100D03*
+G01X1373Y5100D03*
+G04 Draw part A_R10*
+G54D12*
+G01X1400Y5700D03*
+G01X1695Y5700D03*
+G04 Draw part A_C10*
+G04 Draw part A_C9*
+G04 Draw part A_C8*
+G04 Draw part A_D6*
+G54D11*
+G01X2850Y3100D03*
+G01X1373Y3100D03*
+G04 Draw part A_R8*
+G54D12*
+G01X1400Y3700D03*
+G01X1104Y3700D03*
+G04 Draw part A_H4*
+G04 Draw part A_U2*
+G04 Draw part A_H1*
+G04 Draw part A_H3*
+G04 Draw part A_H7*
+G04 Draw part A_H6*
+G04 Draw part A_H5*
+G04 Draw part A_H8*
+G04 Draw part A_H9*
+G04 Draw part A_H10*
+G04 Draw part A_H11*
+G04 Draw part A_H12*
+G04 Draw part A_H13*
+G04 Draw part A_H14*
+G04 Draw part A_C12*
+G04 Draw part A_C13*
+G04 Draw part A_Fuse1*
+G04 Draw part A_c10*
+G54D13*
+G01X3700Y11500D03*
+G01X3700Y11204D03*
+G04 Draw part A_c11*
+G04 Draw part B_H2*
+G04 Draw part B_H1*
+G04 Draw part B_U1*
+G04 Draw part B_L1*
+G04 Draw part B_R2*
+G04 Draw part B_X1*
+G04 Draw part B_C1*
+G04 Draw part B_C2*
+G04 Draw part B_C4*
+G04 Draw part B_C3*
+G04 Draw part B_C7*
+G04 Draw part B_C8*
+G04 Draw part B_C9*
+G04 Draw part B_A1*
+G54D14*
+G01X9100Y30200D03*
+G01X7100Y30200D03*
+G04 Draw part B_v1*
+G04 Draw part B_v2*
+G04 Draw part B_v3*
+G04 Draw part B_v4*
+G04 Draw part B_v5*
+G04 Draw part B_v6*
+G04 Draw part B_v7*
+G04 Draw part B_v8*
+G04 Draw part B_v11*
+G04 Draw part B_v12*
+G04 Draw part B_v13*
+G04 Draw part B_B1*
+
+G04 Draw traces*
+
+G04 Draw Text*
+M00*
+M02*

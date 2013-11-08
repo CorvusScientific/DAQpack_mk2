@@ -1,0 +1,2149 @@
+G04 FreePCB version 1.359*
+G04 C:\Users\Jack Ruby\Documents\GitHub\DAQpack_mk2\FlexCAM_addedOutlines\board_outline.grb*
+G04 board outline layer *
+G04 Scale: 100 percent, Rotated: No, Reflected: No *
+%FSLAX24Y24*%
+%MOIN*%
+%LN board outline *%
+G04 Rounded Rectangle Macro, params: W/2, H/2, R *
+%AMRNDREC*
+21,1,$1+$1,$2+$2-$3-$3,0,0,0*
+21,1,$1+$1-$3-$3,$2+$2,0,0,0*
+1,1,$3+$3,$1-$3,$2-$3*
+1,1,$3+$3,$3-$1,$2-$3*
+1,1,$3+$3,$1-$3,$3-$2*
+1,1,$3+$3,$3-$1,$3-$2*%
+G04 Rectangular Thermal Macro, params: W/2, H/2, T/2 *
+%AMRECTHERM*
+$4=$3/2*
+21,1,$1-$3,$2-$3,0-$1/2-$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,0-$1/2-$4,$2/2+$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,0-$2/2-$4,0*
+21,1,$1-$3,$2-$3,$1/2+$4,$2/2+$4,0*%
+%ADD10C,0.005000*%
+G90*
+G70D02*
+
+G04 Step and Repeat for panelization *
+
+G04 ----------------------- Draw board outline (positive)*
+%LPD*%
+G54D10*
+G01X24600Y14500D02*
+G01X24600Y19800D01*
+G04 end of side 1*
+G01X28100Y19800D01*
+G04 end of side 2*
+G01X28100Y14500D01*
+G04 end of side 3*
+G01X24600Y14500D01*
+G01X500Y27500D02*
+G01X4000Y27500D01*
+G04 end of side 1*
+G01X4000Y32700D01*
+G04 end of side 2*
+G01X500Y32700D01*
+G04 end of side 3*
+G01X500Y27500D01*
+G01X16000Y37800D02*
+G01X16000Y41000D01*
+G04 end of side 1*
+G01X19100Y41000D01*
+G04 end of side 2*
+G01X19100Y37800D01*
+G04 end of side 3*
+G01X16000Y37800D01*
+G01X500Y14500D02*
+G01X500Y19700D01*
+G04 end of side 1*
+G01X4000Y19700D01*
+G04 end of side 2*
+G01X4000Y14500D01*
+G04 end of side 3*
+G01X500Y14500D01*
+G01X400Y8100D02*
+G01X400Y13300D01*
+G04 end of side 1*
+G01X3900Y13300D01*
+G04 end of side 2*
+G01X3900Y8100D01*
+G04 end of side 3*
+G01X400Y8100D01*
+G01X5200Y300D02*
+G01X8700Y300D01*
+G04 end of side 1*
+G01X8700Y6800D01*
+G04 end of side 2*
+G01X5200Y6800D01*
+G04 end of side 3*
+G01X5200Y300D01*
+G01X600Y36700D02*
+G01X600Y38000D01*
+G04 end of side 1*
+G01X4300Y38000D01*
+G04 end of side 2*
+G01X4300Y36700D01*
+G04 end of side 3*
+G01X600Y36700D01*
+G01X600Y34100D02*
+G01X600Y35400D01*
+G04 end of side 1*
+G01X4300Y35400D01*
+G04 end of side 2*
+G01X4300Y34100D01*
+G04 end of side 3*
+G01X600Y34100D01*
+G01X300Y300D02*
+G01X3800Y300D01*
+G04 end of side 1*
+G01X3800Y6800D01*
+G04 end of side 2*
+G01X300Y6800D01*
+G04 end of side 3*
+G01X300Y300D01*
+G01X500Y21000D02*
+G01X4000Y21000D01*
+G04 end of side 1*
+G01X4000Y26200D01*
+G04 end of side 2*
+G01X500Y26200D01*
+G04 end of side 3*
+G01X500Y21000D01*
+G01X16000Y41900D02*
+G01X21000Y41900D01*
+G04 end of side 1*
+G01X21000Y49400D01*
+G04 end of side 2*
+G01X16000Y49400D01*
+G04 end of side 3*
+G01X16000Y41900D01*
+G01X500Y39200D02*
+G01X7000Y39200D01*
+G04 end of side 1*
+G01X7000Y49500D01*
+G04 end of side 2*
+G01X500Y49500D01*
+G04 end of side 3*
+G01X500Y39200D01*
+G01X5200Y8100D02*
+G01X5200Y13300D01*
+G04 end of side 1*
+G01X8700Y13300D01*
+G04 end of side 2*
+G01X8700Y8100D01*
+G04 end of side 3*
+G01X5200Y8100D01*
+G01X5200Y14500D02*
+G01X5200Y19700D01*
+G04 end of side 1*
+G01X8700Y19700D01*
+G04 end of side 2*
+G01X8700Y14500D01*
+G04 end of side 3*
+G01X5200Y14500D01*
+G01X20100Y37800D02*
+G01X20100Y41000D01*
+G04 end of side 1*
+G01X23200Y41000D01*
+G04 end of side 2*
+G01X23200Y37800D01*
+G04 end of side 3*
+G01X20100Y37800D01*
+G01X5300Y27400D02*
+G01X8800Y27400D01*
+G04 end of side 1*
+G01X8800Y32600D01*
+G04 end of side 2*
+G01X5300Y32600D01*
+G04 end of side 3*
+G01X5300Y27400D01*
+G01X29500Y14500D02*
+G01X29500Y19800D01*
+G04 end of side 1*
+G01X33000Y19800D01*
+G04 end of side 2*
+G01X33000Y14500D01*
+G04 end of side 3*
+G01X29500Y14500D01*
+G01X5200Y21000D02*
+G01X8700Y21000D01*
+G04 end of side 1*
+G01X8700Y26200D01*
+G04 end of side 2*
+G01X5200Y26200D01*
+G04 end of side 3*
+G01X5200Y21000D01*
+G01X22300Y41900D02*
+G01X27300Y41900D01*
+G04 end of side 1*
+G01X27300Y49400D01*
+G04 end of side 2*
+G01X22300Y49400D01*
+G04 end of side 3*
+G01X22300Y41900D01*
+G01X8000Y39200D02*
+G01X14500Y39200D01*
+G04 end of side 1*
+G01X14500Y49500D01*
+G04 end of side 2*
+G01X8000Y49500D01*
+G04 end of side 3*
+G01X8000Y39200D01*
+G01X10100Y300D02*
+G01X13600Y300D01*
+G04 end of side 1*
+G01X13600Y6800D01*
+G04 end of side 2*
+G01X10100Y6800D01*
+G04 end of side 3*
+G01X10100Y300D01*
+G01X15000Y300D02*
+G01X18500Y300D01*
+G04 end of side 1*
+G01X18500Y6800D01*
+G04 end of side 2*
+G01X15000Y6800D01*
+G04 end of side 3*
+G01X15000Y300D01*
+G01X19900Y300D02*
+G01X23400Y300D01*
+G04 end of side 1*
+G01X23400Y6800D01*
+G04 end of side 2*
+G01X19900Y6800D01*
+G04 end of side 3*
+G01X19900Y300D01*
+G01X24600Y300D02*
+G01X28100Y300D01*
+G04 end of side 1*
+G01X28100Y6800D01*
+G04 end of side 2*
+G01X24600Y6800D01*
+G04 end of side 3*
+G01X24600Y300D01*
+G01X29500Y300D02*
+G01X33000Y300D01*
+G04 end of side 1*
+G01X33000Y6800D01*
+G04 end of side 2*
+G01X29500Y6800D01*
+G04 end of side 3*
+G01X29500Y300D01*
+G01X34400Y300D02*
+G01X37900Y300D01*
+G04 end of side 1*
+G01X37900Y6800D01*
+G04 end of side 2*
+G01X34400Y6800D01*
+G04 end of side 3*
+G01X34400Y300D01*
+G01X39300Y300D02*
+G01X42800Y300D01*
+G04 end of side 1*
+G01X42800Y6800D01*
+G04 end of side 2*
+G01X39300Y6800D01*
+G04 end of side 3*
+G01X39300Y300D01*
+G01X44100Y300D02*
+G01X47600Y300D01*
+G04 end of side 1*
+G01X47600Y6800D01*
+G04 end of side 2*
+G01X44100Y6800D01*
+G04 end of side 3*
+G01X44100Y300D01*
+G01X10000Y8000D02*
+G01X10000Y13200D01*
+G04 end of side 1*
+G01X13500Y13200D01*
+G04 end of side 2*
+G01X13500Y8000D01*
+G04 end of side 3*
+G01X10000Y8000D01*
+G01X15000Y8000D02*
+G01X15000Y13200D01*
+G04 end of side 1*
+G01X18500Y13200D01*
+G04 end of side 2*
+G01X18500Y8000D01*
+G04 end of side 3*
+G01X15000Y8000D01*
+G01X19800Y7900D02*
+G01X19800Y13100D01*
+G04 end of side 1*
+G01X23300Y13100D01*
+G04 end of side 2*
+G01X23300Y7900D01*
+G04 end of side 3*
+G01X19800Y7900D01*
+G01X24700Y7900D02*
+G01X24700Y13100D01*
+G04 end of side 1*
+G01X28200Y13100D01*
+G04 end of side 2*
+G01X28200Y7900D01*
+G04 end of side 3*
+G01X24700Y7900D01*
+G01X29500Y7800D02*
+G01X29500Y13000D01*
+G04 end of side 1*
+G01X33000Y13000D01*
+G04 end of side 2*
+G01X33000Y7800D01*
+G04 end of side 3*
+G01X29500Y7800D01*
+G01X34500Y7800D02*
+G01X34500Y13000D01*
+G04 end of side 1*
+G01X38000Y13000D01*
+G04 end of side 2*
+G01X38000Y7800D01*
+G04 end of side 3*
+G01X34500Y7800D01*
+G01X39300Y7700D02*
+G01X39300Y12900D01*
+G04 end of side 1*
+G01X42800Y12900D01*
+G04 end of side 2*
+G01X42800Y7700D01*
+G04 end of side 3*
+G01X39300Y7700D01*
+G01X44100Y7700D02*
+G01X44100Y12900D01*
+G04 end of side 1*
+G01X47600Y12900D01*
+G04 end of side 2*
+G01X47600Y7700D01*
+G04 end of side 3*
+G01X44100Y7700D01*
+G01X10000Y14500D02*
+G01X10000Y19700D01*
+G04 end of side 1*
+G01X13500Y19700D01*
+G04 end of side 2*
+G01X13500Y14500D01*
+G04 end of side 3*
+G01X10000Y14500D01*
+G01X15000Y14500D02*
+G01X15000Y19700D01*
+G04 end of side 1*
+G01X18500Y19700D01*
+G04 end of side 2*
+G01X18500Y14500D01*
+G04 end of side 3*
+G01X15000Y14500D01*
+G01X19800Y14500D02*
+G01X19800Y19700D01*
+G04 end of side 1*
+G01X23300Y19700D01*
+G04 end of side 2*
+G01X23300Y14500D01*
+G04 end of side 3*
+G01X19800Y14500D01*
+G01X34500Y14500D02*
+G01X34500Y19800D01*
+G04 end of side 1*
+G01X38000Y19800D01*
+G04 end of side 2*
+G01X38000Y14500D01*
+G04 end of side 3*
+G01X34500Y14500D01*
+G01X39400Y14500D02*
+G01X39400Y19800D01*
+G04 end of side 1*
+G01X42900Y19800D01*
+G04 end of side 2*
+G01X42900Y14500D01*
+G04 end of side 3*
+G01X39400Y14500D01*
+G01X44100Y14500D02*
+G01X44100Y19800D01*
+G04 end of side 1*
+G01X47600Y19800D01*
+G04 end of side 2*
+G01X47600Y14500D01*
+G04 end of side 3*
+G01X44100Y14500D01*
+G01X10000Y21000D02*
+G01X13500Y21000D01*
+G04 end of side 1*
+G01X13500Y26200D01*
+G04 end of side 2*
+G01X10000Y26200D01*
+G04 end of side 3*
+G01X10000Y21000D01*
+G01X15000Y21000D02*
+G01X18500Y21000D01*
+G04 end of side 1*
+G01X18500Y26200D01*
+G04 end of side 2*
+G01X15000Y26200D01*
+G04 end of side 3*
+G01X15000Y21000D01*
+G01X19700Y21000D02*
+G01X23200Y21000D01*
+G04 end of side 1*
+G01X23200Y26200D01*
+G04 end of side 2*
+G01X19700Y26200D01*
+G04 end of side 3*
+G01X19700Y21000D01*
+G01X24500Y21000D02*
+G01X28000Y21000D01*
+G04 end of side 1*
+G01X28000Y26200D01*
+G04 end of side 2*
+G01X24500Y26200D01*
+G04 end of side 3*
+G01X24500Y21000D01*
+G01X29500Y21000D02*
+G01X33000Y21000D01*
+G04 end of side 1*
+G01X33000Y26200D01*
+G04 end of side 2*
+G01X29500Y26200D01*
+G04 end of side 3*
+G01X29500Y21000D01*
+G01X34500Y21000D02*
+G01X38000Y21000D01*
+G04 end of side 1*
+G01X38000Y26200D01*
+G04 end of side 2*
+G01X34500Y26200D01*
+G04 end of side 3*
+G01X34500Y21000D01*
+G01X39200Y21000D02*
+G01X42700Y21000D01*
+G04 end of side 1*
+G01X42700Y26200D01*
+G04 end of side 2*
+G01X39200Y26200D01*
+G04 end of side 3*
+G01X39200Y21000D01*
+G01X44000Y21000D02*
+G01X47500Y21000D01*
+G04 end of side 1*
+G01X47500Y26200D01*
+G04 end of side 2*
+G01X44000Y26200D01*
+G04 end of side 3*
+G01X44000Y21000D01*
+G01X28600Y42000D02*
+G01X33600Y42000D01*
+G04 end of side 1*
+G01X33600Y49500D01*
+G04 end of side 2*
+G01X28600Y49500D01*
+G04 end of side 3*
+G01X28600Y42000D01*
+G01X34900Y42000D02*
+G01X39900Y42000D01*
+G04 end of side 1*
+G01X39900Y49500D01*
+G04 end of side 2*
+G01X34900Y49500D01*
+G04 end of side 3*
+G01X34900Y42000D01*
+G01X41000Y42000D02*
+G01X46000Y42000D01*
+G04 end of side 1*
+G01X46000Y49500D01*
+G04 end of side 2*
+G01X41000Y49500D01*
+G04 end of side 3*
+G01X41000Y42000D01*
+G01X10000Y27400D02*
+G01X13500Y27400D01*
+G04 end of side 1*
+G01X13500Y32600D01*
+G04 end of side 2*
+G01X10000Y32600D01*
+G04 end of side 3*
+G01X10000Y27400D01*
+G01X14800Y27300D02*
+G01X18300Y27300D01*
+G04 end of side 1*
+G01X18300Y32500D01*
+G04 end of side 2*
+G01X14800Y32500D01*
+G04 end of side 3*
+G01X14800Y27300D01*
+G01X19700Y27300D02*
+G01X23200Y27300D01*
+G04 end of side 1*
+G01X23200Y32500D01*
+G04 end of side 2*
+G01X19700Y32500D01*
+G04 end of side 3*
+G01X19700Y27300D01*
+G01X24500Y37800D02*
+G01X24500Y41000D01*
+G04 end of side 1*
+G01X27600Y41000D01*
+G04 end of side 2*
+G01X27600Y37800D01*
+G04 end of side 3*
+G01X24500Y37800D01*
+G01X28600Y37800D02*
+G01X28600Y41000D01*
+G04 end of side 1*
+G01X31700Y41000D01*
+G04 end of side 2*
+G01X31700Y37800D01*
+G04 end of side 3*
+G01X28600Y37800D01*
+G01X32800Y37800D02*
+G01X32800Y41000D01*
+G04 end of side 1*
+G01X35900Y41000D01*
+G04 end of side 2*
+G01X35900Y37800D01*
+G04 end of side 3*
+G01X32800Y37800D01*
+G01X36900Y37800D02*
+G01X36900Y41000D01*
+G04 end of side 1*
+G01X40000Y41000D01*
+G04 end of side 2*
+G01X40000Y37800D01*
+G04 end of side 3*
+G01X36900Y37800D01*
+G01X41100Y37800D02*
+G01X41100Y41000D01*
+G04 end of side 1*
+G01X44200Y41000D01*
+G04 end of side 2*
+G01X44200Y37800D01*
+G04 end of side 3*
+G01X41100Y37800D01*
+G01X45200Y37800D02*
+G01X45200Y41000D01*
+G04 end of side 1*
+G01X48300Y41000D01*
+G04 end of side 2*
+G01X48300Y37800D01*
+G04 end of side 3*
+G01X45200Y37800D01*
+G01X5300Y36700D02*
+G01X5300Y38000D01*
+G04 end of side 1*
+G01X9000Y38000D01*
+G04 end of side 2*
+G01X9000Y36700D01*
+G04 end of side 3*
+G01X5300Y36700D01*
+G01X5300Y34100D02*
+G01X5300Y35400D01*
+G04 end of side 1*
+G01X9000Y35400D01*
+G04 end of side 2*
+G01X9000Y34100D01*
+G04 end of side 3*
+G01X5300Y34100D01*
+G01X10000Y36700D02*
+G01X10000Y38000D01*
+G04 end of side 1*
+G01X13700Y38000D01*
+G04 end of side 2*
+G01X13700Y36700D01*
+G04 end of side 3*
+G01X10000Y36700D01*
+G01X10000Y34100D02*
+G01X10000Y35400D01*
+G04 end of side 1*
+G01X13700Y35400D01*
+G04 end of side 2*
+G01X13700Y34100D01*
+G04 end of side 3*
+G01X10000Y34100D01*
+G01X14800Y34100D02*
+G01X14800Y35400D01*
+G04 end of side 1*
+G01X18500Y35400D01*
+G04 end of side 2*
+G01X18500Y34100D01*
+G04 end of side 3*
+G01X14800Y34100D01*
+G01X19500Y34100D02*
+G01X19500Y35400D01*
+G04 end of side 1*
+G01X23200Y35400D01*
+G04 end of side 2*
+G01X23200Y34100D01*
+G04 end of side 3*
+G01X19500Y34100D01*
+G01X48700Y8900D02*
+G01X50000Y8900D01*
+G04 end of side 1*
+G01X50000Y5200D01*
+G04 end of side 2*
+G01X48700Y5200D01*
+G04 end of side 3*
+G01X48700Y8900D01*
+G01X48700Y4000D02*
+G01X50000Y4000D01*
+G04 end of side 1*
+G01X50000Y300D01*
+G04 end of side 2*
+G01X48700Y300D01*
+G04 end of side 3*
+G01X48700Y4000D01*
+G01X46900Y41900D02*
+G01X46900Y45100D01*
+G04 end of side 1*
+G01X50000Y45100D01*
+G04 end of side 2*
+G01X50000Y41900D01*
+G04 end of side 3*
+G01X46900Y41900D01*
+G01X46900Y46300D02*
+G01X46900Y49500D01*
+G04 end of side 1*
+G01X50000Y49500D01*
+G04 end of side 2*
+G01X50000Y46300D01*
+G04 end of side 3*
+G01X46900Y46300D01*
+G01X24500Y34100D02*
+G01X24500Y35400D01*
+G04 end of side 1*
+G01X28200Y35400D01*
+G04 end of side 2*
+G01X28200Y34100D01*
+G04 end of side 3*
+G01X24500Y34100D01*
+G01X29200Y34100D02*
+G01X29200Y35400D01*
+G04 end of side 1*
+G01X32900Y35400D01*
+G04 end of side 2*
+G01X32900Y34100D01*
+G04 end of side 3*
+G01X29200Y34100D01*
+G01X33900Y34100D02*
+G01X33900Y35400D01*
+G04 end of side 1*
+G01X37600Y35400D01*
+G04 end of side 2*
+G01X37600Y34100D01*
+G04 end of side 3*
+G01X33900Y34100D01*
+G01X38700Y34100D02*
+G01X38700Y35400D01*
+G04 end of side 1*
+G01X42400Y35400D01*
+G04 end of side 2*
+G01X42400Y34100D01*
+G04 end of side 3*
+G01X38700Y34100D01*
+G01X43400Y34100D02*
+G01X43400Y35400D01*
+G04 end of side 1*
+G01X47100Y35400D01*
+G04 end of side 2*
+G01X47100Y34100D01*
+G04 end of side 3*
+G01X43400Y34100D01*
+G01X48700Y18800D02*
+G01X50000Y18800D01*
+G04 end of side 1*
+G01X50000Y15100D01*
+G04 end of side 2*
+G01X48700Y15100D01*
+G04 end of side 3*
+G01X48700Y18800D01*
+G01X48700Y13900D02*
+G01X50000Y13900D01*
+G04 end of side 1*
+G01X50000Y10200D01*
+G04 end of side 2*
+G01X48700Y10200D01*
+G04 end of side 3*
+G01X48700Y13900D01*
+G01X48700Y28800D02*
+G01X50000Y28800D01*
+G04 end of side 1*
+G01X50000Y25100D01*
+G04 end of side 2*
+G01X48700Y25100D01*
+G04 end of side 3*
+G01X48700Y28800D01*
+G01X48700Y23900D02*
+G01X50000Y23900D01*
+G04 end of side 1*
+G01X50000Y20200D01*
+G04 end of side 2*
+G01X48700Y20200D01*
+G04 end of side 3*
+G01X48700Y23900D01*
+G01X48700Y33700D02*
+G01X50000Y33700D01*
+G04 end of side 1*
+G01X50000Y30000D01*
+G04 end of side 2*
+G01X48700Y30000D01*
+G04 end of side 3*
+G01X48700Y33700D01*
+G01X24500Y27300D02*
+G01X24500Y32500D01*
+G04 end of side 1*
+G01X28000Y32500D01*
+G04 end of side 2*
+G01X28000Y27300D01*
+G04 end of side 3*
+G01X24500Y27300D01*
+G01X29300Y27200D02*
+G01X29300Y32400D01*
+G04 end of side 1*
+G01X32800Y32400D01*
+G04 end of side 2*
+G01X32800Y27200D01*
+G04 end of side 3*
+G01X29300Y27200D01*
+G01X34300Y27200D02*
+G01X34300Y32400D01*
+G04 end of side 1*
+G01X37800Y32400D01*
+G04 end of side 2*
+G01X37800Y27200D01*
+G04 end of side 3*
+G01X34300Y27200D01*
+G01X39100Y27100D02*
+G01X39100Y32300D01*
+G04 end of side 1*
+G01X42600Y32300D01*
+G04 end of side 2*
+G01X42600Y27100D01*
+G04 end of side 3*
+G01X39100Y27100D01*
+G01X43900Y27100D02*
+G01X43900Y32300D01*
+G04 end of side 1*
+G01X47400Y32300D01*
+G04 end of side 2*
+G01X47400Y27100D01*
+G04 end of side 3*
+G01X43900Y27100D01*
+
+G04 -------------- Draw Parts, Pads, Traces, Vias and Text (positive)*
+%LPD*%
+G04 Draw part A_p2*
+G04 Draw part A_p3*
+G04 Draw part A_p4*
+G04 Draw part A_p5*
+G04 Draw part A_p6*
+G04 Draw part B_U3*
+G04 Draw part B_C14*
+G04 Draw part B_C15*
+G04 Draw part B_H2*
+G04 Draw part B_U1*
+G04 Draw part B_C16*
+G04 Draw part B_R1*
+G04 Draw part B_D1*
+G04 Draw part B_R2*
+G04 Draw part B_U2*
+G04 Draw part B_H1*
+G04 Draw part B_B1*
+G04 Draw part B_B2*
+G04 Draw part B_hole2*
+G04 Draw part B_hole4*
+G04 Draw part B_B3*
+G04 Draw part B_B4*
+G04 Draw part B_S2*
+G04 Draw part B_C17*
+G04 Draw part B_C18*
+G04 Draw part C_H1*
+G04 Draw part C_H2*
+G04 Draw part C_U1*
+G04 Draw part C_J6*
+G04 Draw part C_C2*
+G04 Draw part C_J5*
+G04 Draw part C_J4*
+G04 Draw part C_C3*
+G04 Draw part C_J2*
+G04 Draw part C_J1*
+G04 Draw part C_C1*
+G04 Draw part C_J3*
+G04 Draw part C_J8*
+G04 Draw part C_C4*
+G04 Draw part C_J10*
+G04 Draw part C_J9*
+G04 Draw part C_J7*
+G04 Draw part C_J11*
+G04 Draw part C_R1*
+G04 Draw part C_R2*
+G04 Draw part D_U1*
+G04 Draw part D_H1*
+G04 Draw part D_H2*
+G04 Draw part D_U2*
+G04 Draw part D_U3*
+G04 Draw part D_C1*
+G04 Draw part D_R1*
+G04 Draw part D_R2*
+G04 Draw part D_R3*
+G04 Draw part D_R4*
+G04 Draw part D_R5*
+G04 Draw part D_C2*
+G04 Draw part D_C3*
+G04 Draw part D_P1*
+G04 Draw part D_P2*
+G04 Draw part D_P3*
+G04 Draw part D_R6*
+G04 Draw part D_R7*
+G04 Draw part D_R8*
+G04 Draw part D_R9*
+G04 Draw part D_R10*
+G04 Draw part D_C4*
+G04 Draw part D_R11*
+G04 Draw part E_P1*
+G04 Draw part E_P3*
+G04 Draw part E_P4*
+G04 Draw part E_P5*
+G04 Draw part E_P6*
+G04 Draw part E_P7*
+G04 Draw part E_P8*
+G04 Draw part E_P9*
+G04 Draw part E_P10*
+G04 Draw part E_P11*
+G04 Draw part E_P12*
+G04 Draw part E_P13*
+G04 Draw part E_P14*
+G04 Draw part F_H2*
+G04 Draw part F_U1*
+G04 Draw part F_U2*
+G04 Draw part F_R1*
+G04 Draw part F_R2*
+G04 Draw part F_C4*
+G04 Draw part F_C3*
+G04 Draw part F_C1*
+G04 Draw part F_C2*
+G04 Draw part F_C5*
+G04 Draw part F_C6*
+G04 Draw part F_J1*
+G04 Draw part F_J2*
+G04 Draw part F_J4*
+G04 Draw part F_J5*
+G04 Draw part F_J6*
+G04 Draw part F_J3*
+G04 Draw part F_T1*
+G04 Draw part F_R3*
+G04 Draw part F_U3*
+G04 Draw part F_J7*
+G04 Draw part F_J8*
+G04 Draw part F_R4*
+G04 Draw part F_C7*
+G04 Draw part F_P9*
+G04 Draw part F_hole4*
+G04 Draw part G_U2*
+G04 Draw part G_H1*
+G04 Draw part G_H2*
+G04 Draw part G_P2*
+G04 Draw part G_P4*
+G04 Draw part G_P6*
+G04 Draw part G_P1*
+G04 Draw part G_P3*
+G04 Draw part G_P5*
+G04 Draw part G_P8*
+G04 Draw part G_P7*
+G04 Draw part G_P9*
+G04 Draw part G_C1*
+G04 Draw part G_P10*
+G04 Draw part G_P11*
+G04 Draw part H_H1*
+G04 Draw part H_U1*
+G04 Draw part H_R2*
+G04 Draw part H_X1*
+G04 Draw part H_C1*
+G04 Draw part H_C2*
+G04 Draw part H_C7*
+G04 Draw part H_C8*
+G04 Draw part H_C9*
+G04 Draw part H_H2*
+G04 Draw part H_A1*
+G04 Draw part H_hole3*
+G04 Draw part H_L1*
+G04 Draw part H_C4*
+G04 Draw part H_C3*
+G04 Draw part I_U3*
+G04 Draw part I_C14*
+G04 Draw part I_C15*
+G04 Draw part I_P1*
+G04 Draw part I_P2*
+G04 Draw part I_H2*
+G04 Draw part I_U1*
+G04 Draw part I_C16*
+G04 Draw part I_R1*
+G04 Draw part I_H1*
+G04 Draw part I_D1*
+G04 Draw part I_R2*
+G04 Draw part I_S1*
+G04 Draw part I_H3*
+G04 Draw part I_P3*
+G04 Draw part I_P4*
+G04 Draw part I_C17*
+G04 Draw part I_hole1*
+G04 Draw part I_hole2*
+G04 Draw part J_J1*
+G04 Draw part J_J2*
+G04 Draw part J_J3*
+G04 Draw part J_C2*
+G04 Draw part J_R7*
+G04 Draw part J_R8*
+G04 Draw part J_R9*
+G04 Draw part J_R3*
+G04 Draw part J_R4*
+G04 Draw part J_R5*
+G04 Draw part J_R6*
+G04 Draw part J_P1*
+G04 Draw part J_P2*
+G04 Draw part J_P3*
+G04 Draw part J_P6*
+G04 Draw part J_P8*
+G04 Draw part J_P4*
+G04 Draw part J_P5*
+G04 Draw part J_P7*
+G04 Draw part J_R1*
+G04 Draw part J_R10*
+G04 Draw part J_R11*
+G04 Draw part J_R12*
+G04 Draw part J_P9*
+G04 Draw part J_P12*
+G04 Draw part J_P14*
+G04 Draw part J_P10*
+G04 Draw part J_P11*
+G04 Draw part J_P13*
+G04 Draw part J_P20*
+G04 Draw part J_P17*
+G04 Draw part J_P15*
+G04 Draw part J_P19*
+G04 Draw part J_P18*
+G04 Draw part J_P16*
+G04 Draw part J_P26*
+G04 Draw part J_P23*
+G04 Draw part J_P21*
+G04 Draw part J_P25*
+G04 Draw part J_P24*
+G04 Draw part J_P22*
+G04 Draw part J_C1*
+G04 Draw part J_U1*
+G04 Draw part J_D5*
+G04 Draw part J_D1*
+G04 Draw part J_D2*
+G04 Draw part J_D3*
+G04 Draw part J_D4*
+G04 Draw part J_D6*
+G04 Draw part J_D7*
+G04 Draw part J_D8*
+G04 Draw part J_D9*
+G04 Draw part J_D10*
+G04 Draw part J_J11*
+G04 Draw part J_J12*
+G04 Draw part J_J13*
+G04 Draw part J_J14*
+G04 Draw part J_J15*
+G04 Draw part J_J16*
+G04 Draw part A_p7*
+G04 Draw part A_p8*
+G04 Draw part A_p9*
+G04 Draw part A_p10*
+G04 Draw part A_p11*
+G04 Draw part B_U4*
+G04 Draw part B_C19*
+G04 Draw part B_C20*
+G04 Draw part B_H3*
+G04 Draw part B_U5*
+G04 Draw part B_C21*
+G04 Draw part B_R3*
+G04 Draw part B_D2*
+G04 Draw part B_R4*
+G04 Draw part B_U6*
+G04 Draw part B_H4*
+G04 Draw part B_B5*
+G04 Draw part B_B6*
+G04 Draw part B_hole5*
+G04 Draw part B_hole6*
+G04 Draw part B_B7*
+G04 Draw part B_B8*
+G04 Draw part B_S3*
+G04 Draw part B_C22*
+G04 Draw part B_C23*
+G04 Draw part C_H3*
+G04 Draw part C_H4*
+G04 Draw part C_U2*
+G04 Draw part C_J12*
+G04 Draw part C_C5*
+G04 Draw part C_J13*
+G04 Draw part C_J14*
+G04 Draw part C_C6*
+G04 Draw part C_J15*
+G04 Draw part C_J16*
+G04 Draw part C_C7*
+G04 Draw part C_J17*
+G04 Draw part C_J18*
+G04 Draw part C_C8*
+G04 Draw part C_J19*
+G04 Draw part C_J20*
+G04 Draw part C_J21*
+G04 Draw part C_J22*
+G04 Draw part C_R3*
+G04 Draw part C_R4*
+G04 Draw part D_U4*
+G04 Draw part D_H3*
+G04 Draw part D_H4*
+G04 Draw part D_U5*
+G04 Draw part D_U6*
+G04 Draw part D_C5*
+G04 Draw part D_R12*
+G04 Draw part D_R13*
+G04 Draw part D_R14*
+G04 Draw part D_R15*
+G04 Draw part D_R16*
+G04 Draw part D_C6*
+G04 Draw part D_C7*
+G04 Draw part D_P4*
+G04 Draw part D_P5*
+G04 Draw part D_P6*
+G04 Draw part D_R17*
+G04 Draw part D_R18*
+G04 Draw part D_R19*
+G04 Draw part D_R20*
+G04 Draw part D_R21*
+G04 Draw part D_C8*
+G04 Draw part D_R22*
+G04 Draw part E_P15*
+G04 Draw part E_P16*
+G04 Draw part E_P17*
+G04 Draw part E_P18*
+G04 Draw part E_P19*
+G04 Draw part E_P20*
+G04 Draw part E_P21*
+G04 Draw part E_P22*
+G04 Draw part E_P23*
+G04 Draw part E_P24*
+G04 Draw part E_P25*
+G04 Draw part E_P26*
+G04 Draw part E_P27*
+G04 Draw part F_H3*
+G04 Draw part F_U4*
+G04 Draw part F_U5*
+G04 Draw part F_R5*
+G04 Draw part F_R6*
+G04 Draw part F_C8*
+G04 Draw part F_C9*
+G04 Draw part F_C10*
+G04 Draw part F_C11*
+G04 Draw part F_C12*
+G04 Draw part F_C13*
+G04 Draw part F_J9*
+G04 Draw part F_J10*
+G04 Draw part F_J11*
+G04 Draw part F_J12*
+G04 Draw part F_J13*
+G04 Draw part F_J14*
+G04 Draw part F_T2*
+G04 Draw part F_R7*
+G04 Draw part F_U6*
+G04 Draw part F_J15*
+G04 Draw part F_J16*
+G04 Draw part F_R8*
+G04 Draw part F_C14*
+G04 Draw part F_P10*
+G04 Draw part F_hole5*
+G04 Draw part G_U3*
+G04 Draw part G_H3*
+G04 Draw part G_H4*
+G04 Draw part G_P12*
+G04 Draw part G_P13*
+G04 Draw part G_P14*
+G04 Draw part G_P15*
+G04 Draw part G_P16*
+G04 Draw part G_P17*
+G04 Draw part G_P18*
+G04 Draw part G_P19*
+G04 Draw part G_P20*
+G04 Draw part G_C2*
+G04 Draw part G_P21*
+G04 Draw part G_P22*
+G04 Draw part H_H3*
+G04 Draw part H_U2*
+G04 Draw part H_R3*
+G04 Draw part H_X2*
+G04 Draw part H_C10*
+G04 Draw part H_C11*
+G04 Draw part H_C12*
+G04 Draw part H_C13*
+G04 Draw part H_C14*
+G04 Draw part H_H4*
+G04 Draw part H_A2*
+G04 Draw part H_hole4*
+G04 Draw part H_L2*
+G04 Draw part H_C15*
+G04 Draw part H_C16*
+G04 Draw part I_U4*
+G04 Draw part I_C18*
+G04 Draw part I_C19*
+G04 Draw part I_P5*
+G04 Draw part I_P6*
+G04 Draw part I_H4*
+G04 Draw part I_U5*
+G04 Draw part I_C20*
+G04 Draw part I_R3*
+G04 Draw part I_H5*
+G04 Draw part I_D2*
+G04 Draw part I_R4*
+G04 Draw part I_S2*
+G04 Draw part I_H6*
+G04 Draw part I_P7*
+G04 Draw part I_P8*
+G04 Draw part I_C21*
+G04 Draw part I_hole3*
+G04 Draw part I_hole4*
+G04 Draw part J_J17*
+G04 Draw part J_J18*
+G04 Draw part J_J19*
+G04 Draw part J_C3*
+G04 Draw part J_R13*
+G04 Draw part J_R14*
+G04 Draw part J_R15*
+G04 Draw part J_R16*
+G04 Draw part J_R17*
+G04 Draw part J_R18*
+G04 Draw part J_R19*
+G04 Draw part J_P27*
+G04 Draw part J_P28*
+G04 Draw part J_P29*
+G04 Draw part J_P30*
+G04 Draw part J_P31*
+G04 Draw part J_P32*
+G04 Draw part J_P33*
+G04 Draw part J_P34*
+G04 Draw part J_R20*
+G04 Draw part J_R21*
+G04 Draw part J_R22*
+G04 Draw part J_R23*
+G04 Draw part J_P35*
+G04 Draw part J_P36*
+G04 Draw part J_P37*
+G04 Draw part J_P38*
+G04 Draw part J_P39*
+G04 Draw part J_P40*
+G04 Draw part J_P41*
+G04 Draw part J_P42*
+G04 Draw part J_P43*
+G04 Draw part J_P44*
+G04 Draw part J_P45*
+G04 Draw part J_P46*
+G04 Draw part J_P47*
+G04 Draw part J_P48*
+G04 Draw part J_P49*
+G04 Draw part J_P50*
+G04 Draw part J_P51*
+G04 Draw part J_P52*
+G04 Draw part J_C4*
+G04 Draw part J_U2*
+G04 Draw part J_D11*
+G04 Draw part J_D12*
+G04 Draw part J_D13*
+G04 Draw part J_D14*
+G04 Draw part J_D15*
+G04 Draw part J_D16*
+G04 Draw part J_D17*
+G04 Draw part J_D18*
+G04 Draw part J_D19*
+G04 Draw part J_D20*
+G04 Draw part J_J20*
+G04 Draw part J_J21*
+G04 Draw part J_J22*
+G04 Draw part J_J23*
+G04 Draw part J_J24*
+G04 Draw part J_J25*
+G04 Draw part B_U7*
+G04 Draw part B_C24*
+G04 Draw part B_C25*
+G04 Draw part B_H5*
+G04 Draw part B_U8*
+G04 Draw part B_C26*
+G04 Draw part B_R5*
+G04 Draw part B_D3*
+G04 Draw part B_R6*
+G04 Draw part B_U9*
+G04 Draw part B_H6*
+G04 Draw part B_B9*
+G04 Draw part B_B10*
+G04 Draw part B_hole7*
+G04 Draw part B_hole8*
+G04 Draw part B_B11*
+G04 Draw part B_B12*
+G04 Draw part B_S4*
+G04 Draw part B_C27*
+G04 Draw part B_C28*
+G04 Draw part B_U10*
+G04 Draw part B_C29*
+G04 Draw part B_C30*
+G04 Draw part B_H7*
+G04 Draw part B_U11*
+G04 Draw part B_C31*
+G04 Draw part B_R7*
+G04 Draw part B_D4*
+G04 Draw part B_R8*
+G04 Draw part B_U12*
+G04 Draw part B_H8*
+G04 Draw part B_B13*
+G04 Draw part B_B14*
+G04 Draw part B_hole9*
+G04 Draw part B_hole10*
+G04 Draw part B_B15*
+G04 Draw part B_B16*
+G04 Draw part B_S5*
+G04 Draw part B_C32*
+G04 Draw part B_C33*
+G04 Draw part B_U13*
+G04 Draw part B_C34*
+G04 Draw part B_C35*
+G04 Draw part B_H9*
+G04 Draw part B_U14*
+G04 Draw part B_C36*
+G04 Draw part B_R9*
+G04 Draw part B_D5*
+G04 Draw part B_R10*
+G04 Draw part B_U15*
+G04 Draw part B_H10*
+G04 Draw part B_B17*
+G04 Draw part B_B18*
+G04 Draw part B_hole11*
+G04 Draw part B_hole12*
+G04 Draw part B_B19*
+G04 Draw part B_B20*
+G04 Draw part B_S6*
+G04 Draw part B_C37*
+G04 Draw part B_C38*
+G04 Draw part B_U16*
+G04 Draw part B_C39*
+G04 Draw part B_C40*
+G04 Draw part B_H11*
+G04 Draw part B_U17*
+G04 Draw part B_C41*
+G04 Draw part B_R11*
+G04 Draw part B_D6*
+G04 Draw part B_R12*
+G04 Draw part B_U18*
+G04 Draw part B_H12*
+G04 Draw part B_B21*
+G04 Draw part B_B22*
+G04 Draw part B_hole13*
+G04 Draw part B_hole14*
+G04 Draw part B_B23*
+G04 Draw part B_B24*
+G04 Draw part B_S7*
+G04 Draw part B_C42*
+G04 Draw part B_C43*
+G04 Draw part B_U19*
+G04 Draw part B_C44*
+G04 Draw part B_C45*
+G04 Draw part B_H13*
+G04 Draw part B_U20*
+G04 Draw part B_C46*
+G04 Draw part B_R13*
+G04 Draw part B_D7*
+G04 Draw part B_R14*
+G04 Draw part B_U21*
+G04 Draw part B_H14*
+G04 Draw part B_B25*
+G04 Draw part B_B26*
+G04 Draw part B_hole15*
+G04 Draw part B_hole16*
+G04 Draw part B_B27*
+G04 Draw part B_B28*
+G04 Draw part B_S8*
+G04 Draw part B_C47*
+G04 Draw part B_C48*
+G04 Draw part B_U22*
+G04 Draw part B_C49*
+G04 Draw part B_C50*
+G04 Draw part B_H15*
+G04 Draw part B_U23*
+G04 Draw part B_C51*
+G04 Draw part B_R15*
+G04 Draw part B_D8*
+G04 Draw part B_R16*
+G04 Draw part B_U24*
+G04 Draw part B_H16*
+G04 Draw part B_B29*
+G04 Draw part B_B30*
+G04 Draw part B_hole17*
+G04 Draw part B_hole18*
+G04 Draw part B_B31*
+G04 Draw part B_B32*
+G04 Draw part B_S9*
+G04 Draw part B_C52*
+G04 Draw part B_C53*
+G04 Draw part B_U25*
+G04 Draw part B_C54*
+G04 Draw part B_C55*
+G04 Draw part B_H17*
+G04 Draw part B_U26*
+G04 Draw part B_C56*
+G04 Draw part B_R17*
+G04 Draw part B_D9*
+G04 Draw part B_R18*
+G04 Draw part B_U27*
+G04 Draw part B_H18*
+G04 Draw part B_B33*
+G04 Draw part B_B34*
+G04 Draw part B_hole19*
+G04 Draw part B_hole20*
+G04 Draw part B_B35*
+G04 Draw part B_B36*
+G04 Draw part B_S10*
+G04 Draw part B_C57*
+G04 Draw part B_C58*
+G04 Draw part B_U28*
+G04 Draw part B_C59*
+G04 Draw part B_C60*
+G04 Draw part B_H19*
+G04 Draw part B_U29*
+G04 Draw part B_C61*
+G04 Draw part B_R19*
+G04 Draw part B_D10*
+G04 Draw part B_R20*
+G04 Draw part B_U30*
+G04 Draw part B_H20*
+G04 Draw part B_B37*
+G04 Draw part B_B38*
+G04 Draw part B_hole21*
+G04 Draw part B_hole22*
+G04 Draw part B_B39*
+G04 Draw part B_B40*
+G04 Draw part B_S11*
+G04 Draw part B_C62*
+G04 Draw part B_C63*
+G04 Draw part C_H5*
+G04 Draw part C_H6*
+G04 Draw part C_U3*
+G04 Draw part C_J23*
+G04 Draw part C_C9*
+G04 Draw part C_J24*
+G04 Draw part C_J25*
+G04 Draw part C_C10*
+G04 Draw part C_J26*
+G04 Draw part C_J27*
+G04 Draw part C_C11*
+G04 Draw part C_J28*
+G04 Draw part C_J29*
+G04 Draw part C_C12*
+G04 Draw part C_J30*
+G04 Draw part C_J31*
+G04 Draw part C_J32*
+G04 Draw part C_J33*
+G04 Draw part C_R5*
+G04 Draw part C_R6*
+G04 Draw part C_H7*
+G04 Draw part C_H8*
+G04 Draw part C_U4*
+G04 Draw part C_J34*
+G04 Draw part C_C13*
+G04 Draw part C_J35*
+G04 Draw part C_J36*
+G04 Draw part C_C14*
+G04 Draw part C_J37*
+G04 Draw part C_J38*
+G04 Draw part C_C15*
+G04 Draw part C_J39*
+G04 Draw part C_J40*
+G04 Draw part C_C16*
+G04 Draw part C_J41*
+G04 Draw part C_J42*
+G04 Draw part C_J43*
+G04 Draw part C_J44*
+G04 Draw part C_R7*
+G04 Draw part C_R8*
+G04 Draw part C_H9*
+G04 Draw part C_H10*
+G04 Draw part C_U5*
+G04 Draw part C_J45*
+G04 Draw part C_C17*
+G04 Draw part C_J46*
+G04 Draw part C_J47*
+G04 Draw part C_C18*
+G04 Draw part C_J48*
+G04 Draw part C_J49*
+G04 Draw part C_C19*
+G04 Draw part C_J50*
+G04 Draw part C_J51*
+G04 Draw part C_C20*
+G04 Draw part C_J52*
+G04 Draw part C_J53*
+G04 Draw part C_J54*
+G04 Draw part C_J55*
+G04 Draw part C_R9*
+G04 Draw part C_R10*
+G04 Draw part C_H11*
+G04 Draw part C_H12*
+G04 Draw part C_U6*
+G04 Draw part C_J56*
+G04 Draw part C_C21*
+G04 Draw part C_J57*
+G04 Draw part C_J58*
+G04 Draw part C_C22*
+G04 Draw part C_J59*
+G04 Draw part C_J60*
+G04 Draw part C_C23*
+G04 Draw part C_J61*
+G04 Draw part C_J62*
+G04 Draw part C_C24*
+G04 Draw part C_J63*
+G04 Draw part C_J64*
+G04 Draw part C_J65*
+G04 Draw part C_J66*
+G04 Draw part C_R11*
+G04 Draw part C_R12*
+G04 Draw part C_H13*
+G04 Draw part C_H14*
+G04 Draw part C_U7*
+G04 Draw part C_J67*
+G04 Draw part C_C25*
+G04 Draw part C_J68*
+G04 Draw part C_J69*
+G04 Draw part C_C26*
+G04 Draw part C_J70*
+G04 Draw part C_J71*
+G04 Draw part C_C27*
+G04 Draw part C_J72*
+G04 Draw part C_J73*
+G04 Draw part C_C28*
+G04 Draw part C_J74*
+G04 Draw part C_J75*
+G04 Draw part C_J76*
+G04 Draw part C_J77*
+G04 Draw part C_R13*
+G04 Draw part C_R14*
+G04 Draw part C_H15*
+G04 Draw part C_H16*
+G04 Draw part C_U8*
+G04 Draw part C_J78*
+G04 Draw part C_C29*
+G04 Draw part C_J79*
+G04 Draw part C_J80*
+G04 Draw part C_C30*
+G04 Draw part C_J81*
+G04 Draw part C_J82*
+G04 Draw part C_C31*
+G04 Draw part C_J83*
+G04 Draw part C_J84*
+G04 Draw part C_C32*
+G04 Draw part C_J85*
+G04 Draw part C_J86*
+G04 Draw part C_J87*
+G04 Draw part C_J88*
+G04 Draw part C_R15*
+G04 Draw part C_R16*
+G04 Draw part C_H17*
+G04 Draw part C_H18*
+G04 Draw part C_U9*
+G04 Draw part C_J89*
+G04 Draw part C_C33*
+G04 Draw part C_J90*
+G04 Draw part C_J91*
+G04 Draw part C_C34*
+G04 Draw part C_J92*
+G04 Draw part C_J93*
+G04 Draw part C_C35*
+G04 Draw part C_J94*
+G04 Draw part C_J95*
+G04 Draw part C_C36*
+G04 Draw part C_J96*
+G04 Draw part C_J97*
+G04 Draw part C_J98*
+G04 Draw part C_J99*
+G04 Draw part C_R17*
+G04 Draw part C_R18*
+G04 Draw part C_H19*
+G04 Draw part C_H20*
+G04 Draw part C_U10*
+G04 Draw part C_J100*
+G04 Draw part C_C37*
+G04 Draw part C_J101*
+G04 Draw part C_J102*
+G04 Draw part C_C38*
+G04 Draw part C_J103*
+G04 Draw part C_J104*
+G04 Draw part C_C39*
+G04 Draw part C_J105*
+G04 Draw part C_J106*
+G04 Draw part C_C40*
+G04 Draw part C_J107*
+G04 Draw part C_J108*
+G04 Draw part C_J109*
+G04 Draw part C_J110*
+G04 Draw part C_R19*
+G04 Draw part C_R20*
+G04 Draw part D_U7*
+G04 Draw part D_H5*
+G04 Draw part D_H6*
+G04 Draw part D_U8*
+G04 Draw part D_U9*
+G04 Draw part D_C9*
+G04 Draw part D_R23*
+G04 Draw part D_R24*
+G04 Draw part D_R25*
+G04 Draw part D_R26*
+G04 Draw part D_R27*
+G04 Draw part D_C10*
+G04 Draw part D_C11*
+G04 Draw part D_P7*
+G04 Draw part D_P8*
+G04 Draw part D_P9*
+G04 Draw part D_R28*
+G04 Draw part D_R29*
+G04 Draw part D_R30*
+G04 Draw part D_R31*
+G04 Draw part D_R32*
+G04 Draw part D_C12*
+G04 Draw part D_R33*
+G04 Draw part D_U10*
+G04 Draw part D_H7*
+G04 Draw part D_H8*
+G04 Draw part D_U11*
+G04 Draw part D_U12*
+G04 Draw part D_C13*
+G04 Draw part D_R34*
+G04 Draw part D_R35*
+G04 Draw part D_R36*
+G04 Draw part D_R37*
+G04 Draw part D_R38*
+G04 Draw part D_C14*
+G04 Draw part D_C15*
+G04 Draw part D_P10*
+G04 Draw part D_P11*
+G04 Draw part D_P12*
+G04 Draw part D_R39*
+G04 Draw part D_R40*
+G04 Draw part D_R41*
+G04 Draw part D_R42*
+G04 Draw part D_R43*
+G04 Draw part D_C16*
+G04 Draw part D_R44*
+G04 Draw part D_U13*
+G04 Draw part D_H9*
+G04 Draw part D_H10*
+G04 Draw part D_U14*
+G04 Draw part D_U15*
+G04 Draw part D_C17*
+G04 Draw part D_R45*
+G04 Draw part D_R46*
+G04 Draw part D_R47*
+G04 Draw part D_R48*
+G04 Draw part D_R49*
+G04 Draw part D_C18*
+G04 Draw part D_C19*
+G04 Draw part D_P13*
+G04 Draw part D_P14*
+G04 Draw part D_P15*
+G04 Draw part D_R50*
+G04 Draw part D_R51*
+G04 Draw part D_R52*
+G04 Draw part D_R53*
+G04 Draw part D_R54*
+G04 Draw part D_C20*
+G04 Draw part D_R55*
+G04 Draw part G_U4*
+G04 Draw part G_H5*
+G04 Draw part G_H6*
+G04 Draw part G_P23*
+G04 Draw part G_P24*
+G04 Draw part G_P25*
+G04 Draw part G_P26*
+G04 Draw part G_P27*
+G04 Draw part G_P28*
+G04 Draw part G_P29*
+G04 Draw part G_P30*
+G04 Draw part G_P31*
+G04 Draw part G_C3*
+G04 Draw part G_P32*
+G04 Draw part G_P33*
+G04 Draw part G_U5*
+G04 Draw part G_H7*
+G04 Draw part G_H8*
+G04 Draw part G_P34*
+G04 Draw part G_P35*
+G04 Draw part G_P36*
+G04 Draw part G_P37*
+G04 Draw part G_P38*
+G04 Draw part G_P39*
+G04 Draw part G_P40*
+G04 Draw part G_P41*
+G04 Draw part G_P42*
+G04 Draw part G_C4*
+G04 Draw part G_P43*
+G04 Draw part G_P44*
+G04 Draw part G_U6*
+G04 Draw part G_H9*
+G04 Draw part G_H10*
+G04 Draw part G_P45*
+G04 Draw part G_P46*
+G04 Draw part G_P47*
+G04 Draw part G_P48*
+G04 Draw part G_P49*
+G04 Draw part G_P50*
+G04 Draw part G_P51*
+G04 Draw part G_P52*
+G04 Draw part G_P53*
+G04 Draw part G_C5*
+G04 Draw part G_P54*
+G04 Draw part G_P55*
+G04 Draw part H_H5*
+G04 Draw part H_U3*
+G04 Draw part H_R4*
+G04 Draw part H_X3*
+G04 Draw part H_C17*
+G04 Draw part H_C18*
+G04 Draw part H_C19*
+G04 Draw part H_C20*
+G04 Draw part H_C21*
+G04 Draw part H_H6*
+G04 Draw part H_A3*
+G04 Draw part H_hole5*
+G04 Draw part H_L3*
+G04 Draw part H_C22*
+G04 Draw part H_C23*
+G04 Draw part H_H7*
+G04 Draw part H_U4*
+G04 Draw part H_R5*
+G04 Draw part H_X4*
+G04 Draw part H_C24*
+G04 Draw part H_C25*
+G04 Draw part H_C26*
+G04 Draw part H_C27*
+G04 Draw part H_C28*
+G04 Draw part H_H8*
+G04 Draw part H_A4*
+G04 Draw part H_hole6*
+G04 Draw part H_L4*
+G04 Draw part H_C29*
+G04 Draw part H_C30*
+G04 Draw part H_H9*
+G04 Draw part H_U5*
+G04 Draw part H_R6*
+G04 Draw part H_X5*
+G04 Draw part H_C31*
+G04 Draw part H_C32*
+G04 Draw part H_C33*
+G04 Draw part H_C34*
+G04 Draw part H_C35*
+G04 Draw part H_H10*
+G04 Draw part H_A5*
+G04 Draw part H_hole7*
+G04 Draw part H_L5*
+G04 Draw part H_C36*
+G04 Draw part H_C37*
+G04 Draw part H_H11*
+G04 Draw part H_U6*
+G04 Draw part H_R7*
+G04 Draw part H_X6*
+G04 Draw part H_C38*
+G04 Draw part H_C39*
+G04 Draw part H_C40*
+G04 Draw part H_C41*
+G04 Draw part H_C42*
+G04 Draw part H_H12*
+G04 Draw part H_A6*
+G04 Draw part H_hole8*
+G04 Draw part H_L6*
+G04 Draw part H_C43*
+G04 Draw part H_C44*
+G04 Draw part H_H13*
+G04 Draw part H_U7*
+G04 Draw part H_R8*
+G04 Draw part H_X7*
+G04 Draw part H_C45*
+G04 Draw part H_C46*
+G04 Draw part H_C47*
+G04 Draw part H_C48*
+G04 Draw part H_C49*
+G04 Draw part H_H14*
+G04 Draw part H_A7*
+G04 Draw part H_hole9*
+G04 Draw part H_L7*
+G04 Draw part H_C50*
+G04 Draw part H_C51*
+G04 Draw part H_H15*
+G04 Draw part H_U8*
+G04 Draw part H_R9*
+G04 Draw part H_X8*
+G04 Draw part H_C52*
+G04 Draw part H_C53*
+G04 Draw part H_C54*
+G04 Draw part H_C55*
+G04 Draw part H_C56*
+G04 Draw part H_H16*
+G04 Draw part H_A8*
+G04 Draw part H_hole10*
+G04 Draw part H_L8*
+G04 Draw part H_C57*
+G04 Draw part H_C58*
+G04 Draw part H_H17*
+G04 Draw part H_U9*
+G04 Draw part H_R10*
+G04 Draw part H_X9*
+G04 Draw part H_C59*
+G04 Draw part H_C60*
+G04 Draw part H_C61*
+G04 Draw part H_C62*
+G04 Draw part H_C63*
+G04 Draw part H_H18*
+G04 Draw part H_A9*
+G04 Draw part H_hole11*
+G04 Draw part H_L9*
+G04 Draw part H_C64*
+G04 Draw part H_C65*
+G04 Draw part H_H19*
+G04 Draw part H_U10*
+G04 Draw part H_R11*
+G04 Draw part H_X10*
+G04 Draw part H_C66*
+G04 Draw part H_C67*
+G04 Draw part H_C68*
+G04 Draw part H_C69*
+G04 Draw part H_C70*
+G04 Draw part H_H20*
+G04 Draw part H_A10*
+G04 Draw part H_hole12*
+G04 Draw part H_L10*
+G04 Draw part H_C71*
+G04 Draw part H_C72*
+G04 Draw part I_U6*
+G04 Draw part I_C22*
+G04 Draw part I_C23*
+G04 Draw part I_P9*
+G04 Draw part I_P10*
+G04 Draw part I_H7*
+G04 Draw part I_U7*
+G04 Draw part I_C24*
+G04 Draw part I_R5*
+G04 Draw part I_H8*
+G04 Draw part I_D3*
+G04 Draw part I_R6*
+G04 Draw part I_S3*
+G04 Draw part I_H9*
+G04 Draw part I_P11*
+G04 Draw part I_P12*
+G04 Draw part I_C25*
+G04 Draw part I_hole5*
+G04 Draw part I_hole6*
+G04 Draw part I_U8*
+G04 Draw part I_C26*
+G04 Draw part I_C27*
+G04 Draw part I_P13*
+G04 Draw part I_P14*
+G04 Draw part I_H10*
+G04 Draw part I_U9*
+G04 Draw part I_C28*
+G04 Draw part I_R7*
+G04 Draw part I_H11*
+G04 Draw part I_D4*
+G04 Draw part I_R8*
+G04 Draw part I_S4*
+G04 Draw part I_H12*
+G04 Draw part I_P15*
+G04 Draw part I_P16*
+G04 Draw part I_C29*
+G04 Draw part I_hole7*
+G04 Draw part I_hole8*
+G04 Draw part I_U10*
+G04 Draw part I_C30*
+G04 Draw part I_C31*
+G04 Draw part I_P17*
+G04 Draw part I_P18*
+G04 Draw part I_H13*
+G04 Draw part I_U11*
+G04 Draw part I_C32*
+G04 Draw part I_R9*
+G04 Draw part I_H14*
+G04 Draw part I_D5*
+G04 Draw part I_R10*
+G04 Draw part I_S5*
+G04 Draw part I_H15*
+G04 Draw part I_P19*
+G04 Draw part I_P20*
+G04 Draw part I_C33*
+G04 Draw part I_hole9*
+G04 Draw part I_hole10*
+G04 Draw part F_H4*
+G04 Draw part F_U7*
+G04 Draw part F_U8*
+G04 Draw part F_R9*
+G04 Draw part F_R10*
+G04 Draw part F_C15*
+G04 Draw part F_C16*
+G04 Draw part F_C17*
+G04 Draw part F_C18*
+G04 Draw part F_C19*
+G04 Draw part F_C20*
+G04 Draw part F_J17*
+G04 Draw part F_J18*
+G04 Draw part F_J19*
+G04 Draw part F_J20*
+G04 Draw part F_J21*
+G04 Draw part F_J22*
+G04 Draw part F_T3*
+G04 Draw part F_R11*
+G04 Draw part F_U9*
+G04 Draw part F_J23*
+G04 Draw part F_J24*
+G04 Draw part F_R12*
+G04 Draw part F_C21*
+G04 Draw part F_P11*
+G04 Draw part F_hole6*
+G04 Draw part F_H5*
+G04 Draw part F_U10*
+G04 Draw part F_U11*
+G04 Draw part F_R13*
+G04 Draw part F_R14*
+G04 Draw part F_C22*
+G04 Draw part F_C23*
+G04 Draw part F_C24*
+G04 Draw part F_C25*
+G04 Draw part F_C26*
+G04 Draw part F_C27*
+G04 Draw part F_J25*
+G04 Draw part F_J26*
+G04 Draw part F_J27*
+G04 Draw part F_J28*
+G04 Draw part F_J29*
+G04 Draw part F_J30*
+G04 Draw part F_T4*
+G04 Draw part F_R15*
+G04 Draw part F_U12*
+G04 Draw part F_J31*
+G04 Draw part F_J32*
+G04 Draw part F_R16*
+G04 Draw part F_C28*
+G04 Draw part F_P12*
+G04 Draw part F_hole7*
+G04 Draw part F_H6*
+G04 Draw part F_U13*
+G04 Draw part F_U14*
+G04 Draw part F_R17*
+G04 Draw part F_R18*
+G04 Draw part F_C29*
+G04 Draw part F_C30*
+G04 Draw part F_C31*
+G04 Draw part F_C32*
+G04 Draw part F_C33*
+G04 Draw part F_C34*
+G04 Draw part F_J33*
+G04 Draw part F_J34*
+G04 Draw part F_J35*
+G04 Draw part F_J36*
+G04 Draw part F_J37*
+G04 Draw part F_J38*
+G04 Draw part F_T5*
+G04 Draw part F_R19*
+G04 Draw part F_U15*
+G04 Draw part F_J39*
+G04 Draw part F_J40*
+G04 Draw part F_R20*
+G04 Draw part F_C35*
+G04 Draw part F_P13*
+G04 Draw part F_hole8*
+G04 Draw part E_P28*
+G04 Draw part E_P29*
+G04 Draw part E_P30*
+G04 Draw part E_P31*
+G04 Draw part E_P32*
+G04 Draw part E_P33*
+G04 Draw part E_P34*
+G04 Draw part E_P35*
+G04 Draw part E_P36*
+G04 Draw part E_P37*
+G04 Draw part E_P38*
+G04 Draw part E_P39*
+G04 Draw part E_P40*
+G04 Draw part E_P41*
+G04 Draw part E_P42*
+G04 Draw part E_P43*
+G04 Draw part E_P44*
+G04 Draw part E_P45*
+G04 Draw part E_P46*
+G04 Draw part E_P47*
+G04 Draw part E_P48*
+G04 Draw part E_P49*
+G04 Draw part E_P50*
+G04 Draw part E_P51*
+G04 Draw part E_P52*
+G04 Draw part E_P53*
+G04 Draw part E_P54*
+G04 Draw part E_P55*
+G04 Draw part E_P56*
+G04 Draw part E_P57*
+G04 Draw part E_P58*
+G04 Draw part E_P59*
+G04 Draw part E_P60*
+G04 Draw part E_P61*
+G04 Draw part E_P62*
+G04 Draw part E_P63*
+G04 Draw part E_P64*
+G04 Draw part E_P65*
+G04 Draw part E_P66*
+G04 Draw part E_P67*
+G04 Draw part E_P68*
+G04 Draw part E_P69*
+G04 Draw part E_P70*
+G04 Draw part E_P71*
+G04 Draw part E_P72*
+G04 Draw part E_P73*
+G04 Draw part E_P74*
+G04 Draw part E_P75*
+G04 Draw part E_P76*
+G04 Draw part E_P77*
+G04 Draw part E_P78*
+G04 Draw part E_P79*
+G04 Draw part E_P80*
+G04 Draw part E_P81*
+G04 Draw part E_P82*
+G04 Draw part E_P83*
+G04 Draw part E_P84*
+G04 Draw part E_P85*
+G04 Draw part E_P86*
+G04 Draw part E_P87*
+G04 Draw part E_P88*
+G04 Draw part E_P89*
+G04 Draw part E_P90*
+G04 Draw part E_P91*
+G04 Draw part E_P92*
+G04 Draw part E_P93*
+G04 Draw part E_P94*
+G04 Draw part E_P95*
+G04 Draw part E_P96*
+G04 Draw part E_P97*
+G04 Draw part E_P98*
+G04 Draw part E_P99*
+G04 Draw part E_P100*
+G04 Draw part E_P101*
+G04 Draw part E_P102*
+G04 Draw part E_P103*
+G04 Draw part E_P104*
+G04 Draw part E_P105*
+G04 Draw part A_p12*
+G04 Draw part A_p13*
+G04 Draw part A_p14*
+G04 Draw part A_p15*
+G04 Draw part A_p16*
+G04 Draw part A_p17*
+G04 Draw part A_p18*
+G04 Draw part A_p19*
+G04 Draw part A_p20*
+G04 Draw part A_p21*
+G04 Draw part A_p22*
+G04 Draw part A_p23*
+G04 Draw part A_p24*
+G04 Draw part A_p25*
+G04 Draw part A_p26*
+G04 Draw part A_p27*
+G04 Draw part A_p28*
+G04 Draw part A_p29*
+G04 Draw part A_p30*
+G04 Draw part A_p31*
+G04 Draw part A_p32*
+G04 Draw part A_p33*
+G04 Draw part A_p34*
+G04 Draw part A_p35*
+G04 Draw part A_p36*
+G04 Draw part A_p37*
+G04 Draw part A_p38*
+G04 Draw part A_p39*
+G04 Draw part A_p40*
+G04 Draw part A_p41*
+G04 Draw part A_p42*
+G04 Draw part A_p43*
+G04 Draw part A_p44*
+G04 Draw part A_p45*
+G04 Draw part A_p46*
+G04 Draw part A_p47*
+G04 Draw part A_p48*
+G04 Draw part A_p49*
+G04 Draw part A_p50*
+G04 Draw part A_p51*
+G04 Draw part E_P106*
+G04 Draw part E_P107*
+G04 Draw part E_P108*
+G04 Draw part E_P109*
+G04 Draw part E_P110*
+G04 Draw part E_P111*
+G04 Draw part E_P112*
+G04 Draw part E_P113*
+G04 Draw part E_P114*
+G04 Draw part E_P115*
+G04 Draw part E_P116*
+G04 Draw part E_P117*
+G04 Draw part E_P118*
+G04 Draw part E_P119*
+G04 Draw part E_P120*
+G04 Draw part E_P121*
+G04 Draw part E_P122*
+G04 Draw part E_P123*
+G04 Draw part E_P124*
+G04 Draw part E_P125*
+G04 Draw part E_P126*
+G04 Draw part E_P127*
+G04 Draw part E_P128*
+G04 Draw part E_P129*
+G04 Draw part E_P130*
+G04 Draw part E_P131*
+G04 Draw part A_p52*
+G04 Draw part A_p53*
+G04 Draw part A_p54*
+G04 Draw part A_p55*
+G04 Draw part A_p56*
+G04 Draw part A_p57*
+G04 Draw part A_p58*
+G04 Draw part A_p59*
+G04 Draw part A_p60*
+G04 Draw part A_p61*
+G04 Draw part A_p62*
+G04 Draw part A_p63*
+G04 Draw part A_p64*
+G04 Draw part A_p65*
+G04 Draw part A_p66*
+G04 Draw part A_p67*
+G04 Draw part A_p68*
+G04 Draw part A_p69*
+G04 Draw part A_p70*
+G04 Draw part A_p71*
+G04 Draw part A_p72*
+G04 Draw part A_p73*
+G04 Draw part A_p74*
+G04 Draw part A_p75*
+G04 Draw part A_p76*
+G04 Draw part A_p77*
+G04 Draw part A_p78*
+G04 Draw part A_p79*
+G04 Draw part A_p80*
+G04 Draw part A_p81*
+G04 Draw part A_p82*
+G04 Draw part A_p83*
+G04 Draw part A_p84*
+G04 Draw part A_p85*
+G04 Draw part A_p86*
+G04 Draw part A_p87*
+G04 Draw part A_p88*
+G04 Draw part A_p89*
+G04 Draw part A_p90*
+G04 Draw part A_p91*
+G04 Draw part A_p92*
+G04 Draw part A_p93*
+G04 Draw part A_p94*
+G04 Draw part A_p95*
+G04 Draw part A_p96*
+G04 Draw part A_p102*
+G04 Draw part A_p103*
+G04 Draw part A_p104*
+G04 Draw part A_p105*
+G04 Draw part A_p106*
+G04 Draw part C_H21*
+G04 Draw part C_H22*
+G04 Draw part C_U11*
+G04 Draw part C_J111*
+G04 Draw part C_C41*
+G04 Draw part C_J112*
+G04 Draw part C_J113*
+G04 Draw part C_C42*
+G04 Draw part C_J114*
+G04 Draw part C_J115*
+G04 Draw part C_C43*
+G04 Draw part C_J116*
+G04 Draw part C_J117*
+G04 Draw part C_C44*
+G04 Draw part C_J118*
+G04 Draw part C_J119*
+G04 Draw part C_J120*
+G04 Draw part C_J121*
+G04 Draw part C_R21*
+G04 Draw part C_R22*
+G04 Draw part C_H23*
+G04 Draw part C_H24*
+G04 Draw part C_U12*
+G04 Draw part C_J122*
+G04 Draw part C_C45*
+G04 Draw part C_J123*
+G04 Draw part C_J124*
+G04 Draw part C_C46*
+G04 Draw part C_J125*
+G04 Draw part C_J126*
+G04 Draw part C_C47*
+G04 Draw part C_J127*
+G04 Draw part C_J128*
+G04 Draw part C_C48*
+G04 Draw part C_J129*
+G04 Draw part C_J130*
+G04 Draw part C_J131*
+G04 Draw part C_J132*
+G04 Draw part C_R23*
+G04 Draw part C_R24*
+G04 Draw part C_H25*
+G04 Draw part C_H26*
+G04 Draw part C_U13*
+G04 Draw part C_J133*
+G04 Draw part C_C49*
+G04 Draw part C_J134*
+G04 Draw part C_J135*
+G04 Draw part C_C50*
+G04 Draw part C_J136*
+G04 Draw part C_J137*
+G04 Draw part C_C51*
+G04 Draw part C_J138*
+G04 Draw part C_J139*
+G04 Draw part C_C52*
+G04 Draw part C_J140*
+G04 Draw part C_J141*
+G04 Draw part C_J142*
+G04 Draw part C_J143*
+G04 Draw part C_R25*
+G04 Draw part C_R26*
+G04 Draw part C_H27*
+G04 Draw part C_H28*
+G04 Draw part C_U14*
+G04 Draw part C_J144*
+G04 Draw part C_C53*
+G04 Draw part C_J145*
+G04 Draw part C_J146*
+G04 Draw part C_C54*
+G04 Draw part C_J147*
+G04 Draw part C_J148*
+G04 Draw part C_C55*
+G04 Draw part C_J149*
+G04 Draw part C_J150*
+G04 Draw part C_C56*
+G04 Draw part C_J151*
+G04 Draw part C_J152*
+G04 Draw part C_J153*
+G04 Draw part C_J154*
+G04 Draw part C_R27*
+G04 Draw part C_R28*
+G04 Draw part C_H29*
+G04 Draw part C_H30*
+G04 Draw part C_U15*
+G04 Draw part C_J155*
+G04 Draw part C_C57*
+G04 Draw part C_J156*
+G04 Draw part C_J157*
+G04 Draw part C_C58*
+G04 Draw part C_J158*
+G04 Draw part C_J159*
+G04 Draw part C_C59*
+G04 Draw part C_J160*
+G04 Draw part C_J161*
+G04 Draw part C_C60*
+G04 Draw part C_J162*
+G04 Draw part C_J163*
+G04 Draw part C_J164*
+G04 Draw part C_J165*
+G04 Draw part C_R29*
+G04 Draw part C_R30*
+
+G04 Draw traces*
+
+G04 Draw Text*
+M00*
+M02*
